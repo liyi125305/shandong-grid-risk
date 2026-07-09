@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <title>山东电网天气风险看板</title>
+  <script src='echarts.min.js'></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; width: 100%; font-family: 'PingFang SC', 'Microsoft YaHei', -apple-system, sans-serif; }
+    #map { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    .header { position: absolute; top: 16px; left: 16px; z-index: 10; background: rgba(255,255,255,0.95); padding: 12px 16px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); max-width: 340px; }
+    .header h1 { font-size: 16px; margin-bottom: 4px; color: #1a1a1a; }
+    .header p { font-size: 12px; color: #666; line-height: 1.5; }
+    .panel { position: absolute; top: 16px; right: 16px; z-index: 10; width: 280px; background: rgba(255,255,255,0.95); padding: 14px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .panel h2 { font-size: 14px; margin-bottom: 10px; color: #1a1a1a; }
+    .panel select { width: 100%; padding: 6px; border-radius: 4px; border: 1px solid #ddd; margin-bottom: 10px; font-size: 13px; }
+    .risk-card { padding: 10px; border-radius: 6px; font-size: 12px; line-height: 1.5; }
+    .risk-high { background: #fdecea; color: #c0392b; border-left: 3px solid #c0392b; }
+    .risk-medium { background: #fef5e7; color: #d35400; border-left: 3px solid #e67e22; }
+    .risk-low { background: #eafaf1; color: #27ae60; border-left: 3px solid #2ecc71; }
+    .risk-none { background: #f5f7fa; color: #666; border-left: 3px solid #95a5a6; }
+    .risk-title { font-weight: 600; margin-bottom: 4px; }
+    .stat-row { display: flex; justify-content: space-between; margin-top: 6px; font-size: 11px; }
+    .chart-panel { position: absolute; bottom: 16px; right: 16px; z-index: 10; width: 400px; height: 220px; background: rgba(255,255,255,0.95); border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding: 12px; }
+    .legend { position: absolute; bottom: 16px; left: 16px; z-index: 10; background: rgba(255,255,255,0.95); padding: 10px 14px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); font-size: 12px; }
+    .legend-item { display: flex; align-items: center; margin: 4px 0; }
+    .dot { width: 10px; height: 10px; border-radius: 50%; margin-right: 8px; }
+    .dot.demand { background: #e74c3c; }
+    .dot.supply { background: #2ecc71; }
+    .dot.warn { background: #f1c40f; }
+    .dot.danger { background: #c0392b; }
+    .loading { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 20; background: rgba(255,255,255,0.95); padding: 16px 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .cross-section { margin: 6px 0; padding: 8px; border-radius: 4px; font-size: 11px; line-height: 1.4; }
+    .cs-high { background: #fdecea; color: #c0392b; border-left: 3px solid #c0392b; }
+    .cs-medium { background: #fef5e7; color: #d35400; border-left: 3px solid #e67e22; }
+    .cs-low { background: #eafaf1; color: #27ae60; border-left: 3px solid #2ecc71; }
+    .cs-name { font-weight: 600; }
+    .cs-bar-bg { background: #eee; height: 4px; border-radius: 2px; margin-top: 4px; overflow: hidden; }
+    .cs-bar { height: 100%; border-radius: 2px; }
+    .cs-cap { margin-top: 4px; color: #666; }
+    .section-divider { border-top: 1px solid #eee; margin-top: 10px; padding-top: 10px; }
+  </style>
+</head>
+<body>
+  <div id='loading' class='loading'>数据加载中...</div>
+  <div class='header'>
+    <h1>山东电网天气风险看板</h1>
+    <p>受端负荷中心（红）与供端电源/外电入口（绿），叠加 15 天 Open-Meteo 气象与电价风险示意。</p>
+  </div>
+  <div class='panel'>
+    <h2>风险预警</h2>
+    <select id='dateSelect'></select>
+    <div id='riskSummary'></div>
+    <div class='section-divider'>
+      <h2>输电断面</h2>
+      <div id='crossSectionSummary'></div>
+    </div>
+  </div>
+  <div id='priceChart' class='chart-panel'></div>
+  <div class='legend'>
+    <div class='legend-item'><span class='dot demand'></span><span>受端（负荷中心）</span></div>
+    <div class='legend-item'><span class='dot supply'></span><span>供端（外电/新能源）</span></div>
+    <div class='legend-item'><span class='dot warn'></span><span>供端降雨 / 受端中温</span></div>
+    <div class='legend-item'><span class='dot danger'></span><span>供端强降雨 / 受端高温</span></div>
+  </div>
+  <div id='map'></div>
+
+  <script>
+    var mapChart = echarts.init(document.getElementById('map'));
+    var priceChart = echarts.init(document.getElementById('priceChart'));
+    var currentTopology = null;
+    var currentDate = null;
+    var currentData = null;
+
+    function demandColor(tmax) {
+      if (tmax >= 36) return '#c0392b';
+      if (tmax > 33) return '#e67e22';
+      return '#e74c3c';
+    }
+
+    function supplyColor(precip) {
+      if (precip >= 20) return '#e67e22';
+      if (precip >= 5) return '#f1c40f';
+      return '#2ecc71';
+    }
+
+    function renderCrossSections(crossSections, date) {
+      var container = document.getElementById('crossSectionSummary');
+      container.innerHTML = '';
+      var daily = [];
+      for (var i = 0; i < crossSections.length; i++) {
+        if (crossSections[i].date === date) daily.push(crossSections[i]);
+      }
+      daily.sort(function(a, b) { return b.utilization - a.utilization; });
+      if (daily.length === 0) {
+        container.innerHTML = '<div style="font-size:12px;color:#666;">暂无断面数据</div>';
+        return;
+      }
+      var colors = { high: '#c0392b', medium: '#e67e22', low: '#2ecc71' };
+      var title = document.createElement('div');
+      title.style.cssText = 'font-size:13px;font-weight:600;margin-bottom:8px;';
+      title.textContent = date + ' 断面负载';
+      container.appendChild(title);
+      for (var i = 0; i < daily.length; i++) {
+        var c = daily[i];
+        var levelClass = 'cs-' + c.risk;
+        var div = document.createElement('div');
+        div.className = 'cross-section ' + levelClass;
+        div.innerHTML = '<div class="cs-name">' + c.name + '</div>' +
+          '<div class="cs-cap">负载 ' + c.load_mw + '/' + c.capacity_mw + ' MW · 利用率 ' + (c.utilization * 100).toFixed(1) + '%</div>' +
+          '<div class="cs-bar-bg"><div class="cs-bar" style="width:' + (c.utilization * 100) + '%; background:' + colors[c.risk] + ';"></div></div>';
+        div.addEventListener('mouseenter', function(id) { return function() { highlightCrossSection(id); }; }(c.id));
+        div.addEventListener('mouseleave', function() { highlightCrossSection(null); });
+        container.appendChild(div);
+      }
+    }
+
+    function buildCrossSectionLines(topology, highlightedId) {
+      var colors = { demand: '#e74c3c', supply: '#3498db', renewable: '#2ecc71' };
+      var lines = [];
+      if (!topology || !topology.cross_sections) return lines;
+      var hasHighlight = (highlightedId !== null && highlightedId !== undefined);
+      for (var i = 0; i < topology.cross_sections.length; i++) {
+        var cs = topology.cross_sections[i];
+        var color = colors[cs.type] || '#95a5a6';
+        var isHighlighted = hasHighlight && (cs.id === highlightedId);
+        var opacity = hasHighlight ? (isHighlighted ? 0.9 : 0.1) : 0.3;
+        var width = hasHighlight ? (isHighlighted ? 4 : 1) : 1.5;
+        for (var j = 0; j < cs.edges.length; j++) {
+          var a = cs.edges[j][0];
+          var b = cs.edges[j][1];
+          var nodeA = topology.nodes[a];
+          var nodeB = topology.nodes[b];
+          if (!nodeA || !nodeB) continue;
+          lines.push({
+            coords: [[nodeA.lon, nodeA.lat], [nodeB.lon, nodeB.lat]],
+            lineStyle: { color: color, width: width, opacity: opacity, curveness: 0 }
+          });
+        }
+      }
+      return lines;
+    }
+
+    function highlightCrossSection(csId) {
+      if (!currentTopology || !currentDate || !currentData) return;
+      updateMap(currentDate, currentTopology, currentData, csId);
+    }
+
+    function renderRiskSummary(priceInfo, date) {
+      var container = document.getElementById('riskSummary');
+      var levelClass = 'risk-' + priceInfo.risk;
+      var levelText = { high: '高风险', medium: '中风险', low: '低风险', none: '无明显风险' };
+      container.innerHTML = '<div class="risk-card ' + levelClass + '">' +
+        '<div class="risk-title">' + date + ' ' + levelText[priceInfo.risk] + '</div>' +
+        '<div>预测电价指数：' + priceInfo.score + '（基准 ' + priceInfo.base_price + '）</div>' +
+        '<div class="stat-row"><span>受端高温节点</span><span>' + priceInfo.demand_count + ' 处</span></div>' +
+        '<div class="stat-row"><span>供端降雨节点</span><span>' + priceInfo.supply_count + ' 处</span></div>' +
+        '<div class="stat-row"><span>受影响人口</span><span>' + (priceInfo.affected_pop || 0) + ' 万人</span></div>' +
+        '</div>';
+    }
+
+    function updateMap(date, topology, data, highlightedCsId) {
+      currentTopology = topology;
+      currentDate = date;
+      currentData = data;
+      var baseNodes = [];
+      for (var key in topology.nodes) {
+        var n = topology.nodes[key];
+        var w = data.nodes[key].weather[date] || { tmax: '-', precip: '-' };
+        var tmax = (typeof w.tmax === 'number') ? w.tmax : null;
+        var precip = (typeof w.precip === 'number') ? w.precip : null;
+        var isDemand = n.type === 'demand';
+        var color = isDemand ? demandColor(tmax || 0) : supplyColor(precip || 0);
+        var label = isDemand
+          ? [n.name, (tmax !== null ? tmax + '°C' : '-')]
+          : [n.name, (precip !== null ? precip + 'mm' : '-')];
+        var isWarn = isDemand ? (tmax && tmax > 33) : (precip && precip >= 5);
+        var weight = data.nodes[key].population_weight || 1;
+        var symbolSize;
+        if (isDemand) {
+          symbolSize = isWarn ? 18 * Math.sqrt(weight) : 12 * Math.sqrt(weight);
+        } else {
+          symbolSize = isWarn ? 18 : 12;
+        }
+        baseNodes.push({
+          name: n.name,
+          key: key,
+          value: [n.lon, n.lat],
+          symbolSize: symbolSize,
+          category: isDemand ? 0 : 1,
+          label: { show: true, position: 'right', fontSize: 10, formatter: label },
+          itemStyle: { color: color, shadowBlur: isWarn ? 12 : 0, shadowColor: color },
+          emphasis: { scale: 1.5 }
+        });
+      }
+
+      var links = [];
+      for (var i = 0; i < topology.edges.length; i++) {
+        var s = topology.edges[i][0];
+        var t = topology.edges[i][1];
+        links.push({
+          source: topology.nodes[s].name,
+          target: topology.nodes[t].name,
+          lineStyle: { color: '#95a5a6', width: 1, opacity: 0.6 }
+        });
+      }
+
+      var option = {
+        tooltip: {
+          trigger: 'item',
+          formatter: function(params) {
+            if (params.dataType === 'node') {
+              var key = params.data.key;
+              var n = topology.nodes[key];
+              var w = data.nodes[key].weather[date] || { tmax: '-', precip: '-' };
+              var type = n.type === 'demand' ? '受端' : '供端';
+              var popHtml = '';
+              if (n.type === 'demand' && data.nodes[key].population) {
+                popHtml = '<br/>人口：' + (data.nodes[key].population / 10000).toFixed(0) + ' 万人';
+              }
+              return n.name + '（' + type + '）' + popHtml + '<br/>最高温：' + w.tmax + '°C<br/>降雨：' + w.precip + 'mm';
+            }
+            return params.data.source + ' → ' + params.data.target;
+          }
+        },
+        geo: {
+          map: 'shandong',
+          roam: true,
+          zoom: 1.1,
+          label: { show: false },
+          itemStyle: { areaColor: '#f0f4f8', borderColor: '#546e7a', borderWidth: 1.5 },
+          emphasis: { itemStyle: { areaColor: '#e3f2fd' } }
+        },
+        series: [{
+          type: 'graph',
+          coordinateSystem: 'geo',
+          data: baseNodes,
+          links: links,
+          layout: 'none',
+          symbol: 'circle',
+          lineStyle: { color: '#95a5a6', width: 1, opacity: 0.6, curveness: 0 },
+          emphasis: { focus: 'adjacency', lineStyle: { width: 2 } },
+          categories: [
+            { name: '受端（负荷中心）', itemStyle: { color: '#e74c3c' } },
+            { name: '供端（外电/新能源）', itemStyle: { color: '#2ecc71' } }
+          ]
+        }, {
+          type: 'lines',
+          coordinateSystem: 'geo',
+          zlevel: 2,
+          data: buildCrossSectionLines(topology, highlightedCsId),
+          lineStyle: { curveness: 0 },
+          silent: true
+        }]
+      };
+      mapChart.setOption(option);
+    }
+
+    function renderPriceChart(priceSeries, selectedDate) {
+      var dates = [];
+      var scores = [];
+      var riskColors = { high: '#c0392b', medium: '#e67e22', low: '#f1c40f', none: '#2ecc71' };
+      for (var i = 0; i < priceSeries.length; i++) {
+        dates.push(priceSeries[i].date);
+        scores.push(priceSeries[i].score);
+      }
+      var option = {
+        grid: { top: 30, right: 20, bottom: 30, left: 50 },
+        title: { text: '15 天电价风险指数', left: 0, top: 0, textStyle: { fontSize: 13, color: '#1a1a1a' } },
+        tooltip: { trigger: 'axis' },
+        xAxis: { type: 'category', data: dates, axisLabel: { fontSize: 10 } },
+        yAxis: { type: 'value', min: 300, axisLabel: { fontSize: 10 } },
+        series: [{
+          type: 'line',
+          data: scores,
+          smooth: true,
+          symbol: 'circle',
+          symbolSize: function(val, params) { return priceSeries[params.dataIndex].date === selectedDate ? 10 : 6; },
+          lineStyle: { color: '#546e7a', width: 2 },
+          itemStyle: { color: function(params) { return riskColors[priceSeries[params.dataIndex].risk]; } }
+        }]
+      };
+      priceChart.setOption(option);
+    }
+
+    Promise.all([
+      fetch('shandong.json').then(function(r) { return r.json(); }),
+      fetch('topology.json').then(function(r) { return r.json(); }),
+      fetch('data.json').then(function(r) { return r.json(); })
+    ]).then(function(results) {
+      var geo = results[0];
+      var topology = results[1];
+      var data = results[2];
+      echarts.registerMap('shandong', geo);
+      document.getElementById('loading').style.display = 'none';
+
+      var dateSelect = document.getElementById('dateSelect');
+      for (var i = 0; i < data.dates.length; i++) {
+        var opt = document.createElement('option');
+        opt.value = data.dates[i];
+        opt.textContent = data.dates[i];
+        dateSelect.appendChild(opt);
+      }
+      var selectedDate = data.dates[0];
+
+      var priceMap = {};
+      for (var j = 0; j < data.price_series.length; j++) {
+        var p = data.price_series[j];
+          priceMap[p.date] = { date: p.date, score: p.score, risk: p.risk, demand_count: p.demand_count, supply_count: p.supply_count, affected_pop: p.affected_pop, base_price: data.base_price };
+      }
+
+      dateSelect.addEventListener('change', function(e) {
+        var d = e.target.value;
+        updateMap(d, topology, data);
+        renderPriceChart(data.price_series, d);
+        renderRiskSummary(priceMap[d], d);
+        renderCrossSections(data.cross_sections || [], d);
+      });
+
+      updateMap(selectedDate, topology, data);
+      renderPriceChart(data.price_series, selectedDate);
+      renderRiskSummary(priceMap[selectedDate], selectedDate);
+      renderCrossSections(data.cross_sections || [], selectedDate);
+    }).catch(function(err) {
+      document.getElementById('loading').textContent = '数据加载失败：' + err.message;
+      console.error(err);
+    });
+
+    window.addEventListener('resize', function() {
+      mapChart.resize();
+      priceChart.resize();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,2266 @@
+{
+  "generated_at": "2026-07-09T06:59:42.113092+00:00",
+  "base_price": 350.0,
+  "dates": [
+    "07-09",
+    "07-10",
+    "07-11",
+    "07-12",
+    "07-13",
+    "07-14",
+    "07-15",
+    "07-16",
+    "07-17",
+    "07-18",
+    "07-19",
+    "07-20",
+    "07-21",
+    "07-22",
+    "07-23"
+  ],
+  "nodes": {
+    "jinan": {
+      "name": "济南",
+      "type": "demand",
+      "lon": 117.0,
+      "lat": 36.67,
+      "population": 9202400,
+      "population_weight": 1.1598445541434723,
+      "weather": {
+        "07-09": {
+          "tmax": 35.9,
+          "precip": 11.8
+        },
+        "07-10": {
+          "tmax": 36.0,
+          "precip": 0.0
+        },
+        "07-11": {
+          "tmax": 37.5,
+          "precip": 0.0
+        },
+        "07-12": {
+          "tmax": 37.4,
+          "precip": 0.0
+        },
+        "07-13": {
+          "tmax": 36.6,
+          "precip": 2.4
+        },
+        "07-14": {
+          "tmax": 29.6,
+          "precip": 6.3
+        },
+        "07-15": {
+          "tmax": 36.1,
+          "precip": 0.3
+        },
+        "07-16": {
+          "tmax": 37.5,
+          "precip": 0.6
+        },
+        "07-17": {
+          "tmax": 35.6,
+          "precip": 5.4
+        },
+        "07-18": {
+          "tmax": 31.0,
+          "precip": 11.4
+        },
+        "07-19": {
+          "tmax": 31.6,
+          "precip": 0.0
+        },
+        "07-20": {
+          "tmax": 32.1,
+          "precip": 2.7
+        },
+        "07-21": {
+          "tmax": 32.9,
+          "precip": 5.7
+        },
+        "07-22": {
+          "tmax": 33.4,
+          "precip": 4.8
+        },
+        "07-23": {
+          "tmax": 33.7,
+          "precip": 3.0
+        }
+      }
+    },
+    "qingdao": {
+      "name": "青岛",
+      "type": "demand",
+      "lon": 120.38,
+      "lat": 36.07,
+      "population": 10071700,
+      "population_weight": 1.26940867555929,
+      "weather": {}
+    },
+    "yantai": {
+      "name": "烟台",
+      "type": "demand",
+      "lon": 121.45,
+      "lat": 37.46,
+      "population": 7102600,
+      "population_weight": 0.8951916815460561,
+      "weather": {
+        "07-09": {
+          "tmax": 30.8,
+          "precip": 1.8
+        },
+        "07-10": {
+          "tmax": 31.0,
+          "precip": 0.0
+        },
+        "07-11": {
+          "tmax": 30.8,
+          "precip": 0.0
+        },
+        "07-12": {
+          "tmax": 32.3,
+          "precip": 0.0
+        },
+        "07-13": {
+          "tmax": 31.6,
+          "precip": 0.0
+        },
+        "07-14": {
+          "tmax": 32.7,
+          "precip": 6.3
+        },
+        "07-15": {
+          "tmax": 30.2,
+          "precip": 6.6
+        },
+        "07-16": {
+          "tmax": 33.0,
+          "precip": 0.0
+        },
+        "07-17": {
+          "tmax": 31.2,
+          "precip": 0.0
+        },
+        "07-18": {
+          "tmax": 27.4,
+          "precip": 31.8
+        },
+        "07-19": {
+          "tmax": 28.7,
+          "precip": 15.6
+        },
+        "07-20": {
+          "tmax": 28.8,
+          "precip": 0.6
+        },
+        "07-21": {
+          "tmax": 28.6,
+          "precip": 1.2
+        },
+        "07-22": {
+          "tmax": 28.4,
+          "precip": 0.0
+        },
+        "07-23": {
+          "tmax": 26.6,
+          "precip": 11.4
+        }
+      }
+    },
+    "weifang": {
+      "name": "潍坊",
+      "type": "demand",
+      "lon": 119.16,
+      "lat": 36.71,
+      "population": 9386700,
+      "population_weight": 1.1830732065959457,
+      "weather": {
+        "07-09": {
+          "tmax": 32.5,
+          "precip": 9.1
+        },
+        "07-10": {
+          "tmax": 36.3,
+          "precip": 1.3
+        },
+        "07-11": {
+          "tmax": 35.9,
+          "precip": 0.0
+        },
+        "07-12": {
+          "tmax": 35.4,
+          "precip": 0.0
+        },
+        "07-13": {
+          "tmax": 33.9,
+          "precip": 0.3
+        },
+        "07-14": {
+          "tmax": 31.5,
+          "precip": 12.0
+        },
+        "07-15": {
+          "tmax": 35.1,
+          "precip": 0.6
+        },
+        "07-16": {
+          "tmax": 36.9,
+          "precip": 0.0
+        },
+        "07-17": {
+          "tmax": 34.5,
+          "precip": 1.8
+        },
+        "07-18": {
+          "tmax": 27.5,
+          "precip": 25.8
+        },
+        "07-19": {
+          "tmax": 30.1,
+          "precip": 0.0
+        },
+        "07-20": {
+          "tmax": 32.0,
+          "precip": 1.2
+        },
+        "07-21": {
+          "tmax": 33.1,
+          "precip": 1.8
+        },
+        "07-22": {
+          "tmax": 33.1,
+          "precip": 6.6
+        },
+        "07-23": {
+          "tmax": 33.3,
+          "precip": 6.6
+        }
+      }
+    },
+    "zibo": {
+      "name": "淄博",
+      "type": "demand",
+      "lon": 118.05,
+      "lat": 36.81,
+      "population": 4704100,
+      "population_weight": 0.592891502993383,
+      "weather": {
+        "07-09": {
+          "tmax": 31.8,
+          "precip": 21.3
+        },
+        "07-10": {
+          "tmax": 35.4,
+          "precip": 0.5
+        },
+        "07-11": {
+          "tmax": 36.5,
+          "precip": 0.0
+        },
+        "07-12": {
+          "tmax": 37.7,
+          "precip": 0.0
+        },
+        "07-13": {
+          "tmax": 38.4,
+          "precip": 0.3
+        },
+        "07-14": {
+          "tmax": 31.0,
+          "precip": 15.0
+        },
+        "07-15": {
+          "tmax": 34.0,
+          "precip": 0.3
+        },
+        "07-16": {
+          "tmax": 36.8,
+          "precip": 0.0
+        },
+        "07-17": {
+          "tmax": 35.6,
+          "precip": 0.0
+        },
+        "07-18": {
+          "tmax": 30.0,
+          "precip": 38.4
+        },
+        "07-19": {
+          "tmax": 30.7,
+          "precip": 0.0
+        },
+        "07-20": {
+          "tmax": 30.2,
+          "precip": 2.4
+        },
+        "07-21": {
+          "tmax": 32.7,
+          "precip": 3.0
+        },
+        "07-22": {
+          "tmax": 33.8,
+          "precip": 3.0
+        },
+        "07-23": {
+          "tmax": 33.6,
+          "precip": 3.6
+        }
+      }
+    },
+    "linyi": {
+      "name": "临沂",
+      "type": "demand",
+      "lon": 118.35,
+      "lat": 35.05,
+      "population": 11018400,
+      "population_weight": 1.3887280747820607,
+      "weather": {
+        "07-09": {
+          "tmax": 32.5,
+          "precip": 13.9
+        },
+        "07-10": {
+          "tmax": 33.5,
+          "precip": 2.2
+        },
+        "07-11": {
+          "tmax": 32.7,
+          "precip": 0.0
+        },
+        "07-12": {
+          "tmax": 31.4,
+          "precip": 0.5
+        },
+        "07-13": {
+          "tmax": 32.7,
+          "precip": 6.9
+        },
+        "07-14": {
+          "tmax": 28.3,
+          "precip": 34.8
+        },
+        "07-15": {
+          "tmax": 33.4,
+          "precip": 0.0
+        },
+        "07-16": {
+          "tmax": 32.7,
+          "precip": 0.3
+        },
+        "07-17": {
+          "tmax": 30.4,
+          "precip": 8.1
+        },
+        "07-18": {
+          "tmax": 27.1,
+          "precip": 35.7
+        },
+        "07-19": {
+          "tmax": 28.4,
+          "precip": 13.8
+        },
+        "07-20": {
+          "tmax": 26.4,
+          "precip": 64.5
+        },
+        "07-21": {
+          "tmax": 31.4,
+          "precip": 26.4
+        },
+        "07-22": {
+          "tmax": 32.4,
+          "precip": 7.8
+        },
+        "07-23": {
+          "tmax": 33.0,
+          "precip": 3.3
+        }
+      }
+    },
+    "jining": {
+      "name": "济宁",
+      "type": "demand",
+      "lon": 116.38,
+      "lat": 35.38,
+      "population": 8357900,
+      "population_weight": 1.0534061548156706,
+      "weather": {
+        "07-09": {
+          "tmax": 34.7,
+          "precip": 8.9
+        },
+        "07-10": {
+          "tmax": 34.4,
+          "precip": 0.4
+        },
+        "07-11": {
+          "tmax": 34.5,
+          "precip": 0.0
+        },
+        "07-12": {
+          "tmax": 34.9,
+          "precip": 0.4
+        },
+        "07-13": {
+          "tmax": 33.2,
+          "precip": 9.4
+        },
+        "07-14": {
+          "tmax": 30.9,
+          "precip": 20.4
+        },
+        "07-15": {
+          "tmax": 34.2,
+          "precip": 0.0
+        },
+        "07-16": {
+          "tmax": 33.9,
+          "precip": 0.0
+        },
+        "07-17": {
+          "tmax": 29.5,
+          "precip": 6.6
+        },
+        "07-18": {
+          "tmax": 30.0,
+          "precip": 2.4
+        },
+        "07-19": {
+          "tmax": 26.5,
+          "precip": 4.2
+        },
+        "07-20": {
+          "tmax": 29.3,
+          "precip": 4.2
+        },
+        "07-21": {
+          "tmax": 31.8,
+          "precip": 4.5
+        },
+        "07-22": {
+          "tmax": 33.3,
+          "precip": 1.5
+        },
+        "07-23": {
+          "tmax": 33.4,
+          "precip": 3.9
+        }
+      }
+    },
+    "dezhou": {
+      "name": "德州",
+      "type": "demand",
+      "lon": 116.35,
+      "lat": 37.45,
+      "population": 5611200,
+      "population_weight": 0.7072198298498057,
+      "weather": {
+        "07-09": {
+          "tmax": 36.6,
+          "precip": 4.3
+        },
+        "07-10": {
+          "tmax": 36.3,
+          "precip": 4.7
+        },
+        "07-11": {
+          "tmax": 37.4,
+          "precip": 3.0
+        },
+        "07-12": {
+          "tmax": 39.2,
+          "precip": 0.1
+        },
+        "07-13": {
+          "tmax": 35.5,
+          "precip": 7.5
+        },
+        "07-14": {
+          "tmax": 30.6,
+          "precip": 9.9
+        },
+        "07-15": {
+          "tmax": 35.0,
+          "precip": 0.0
+        },
+        "07-16": {
+          "tmax": 35.3,
+          "precip": 0.0
+        },
+        "07-17": {
+          "tmax": 36.3,
+          "precip": 1.2
+        },
+        "07-18": {
+          "tmax": 28.8,
+          "precip": 56.4
+        },
+        "07-19": {
+          "tmax": 32.4,
+          "precip": 0.0
+        },
+        "07-20": {
+          "tmax": 31.9,
+          "precip": 0.3
+        },
+        "07-21": {
+          "tmax": 33.1,
+          "precip": 2.4
+        },
+        "07-22": {
+          "tmax": 33.0,
+          "precip": 2.4
+        },
+        "07-23": {
+          "tmax": 33.0,
+          "precip": 4.5
+        }
+      }
+    },
+    "liaocheng": {
+      "name": "聊城",
+      "type": "demand",
+      "lon": 115.98,
+      "lat": 36.45,
+      "population": 5952500,
+      "population_weight": 0.7502363197143157,
+      "weather": {
+        "07-09": {
+          "tmax": 36.2,
+          "precip": 7.9
+        },
+        "07-10": {
+          "tmax": 35.7,
+          "precip": 0.7
+        },
+        "07-11": {
+          "tmax": 36.5,
+          "precip": 0.0
+        },
+        "07-12": {
+          "tmax": 38.0,
+          "precip": 0.4
+        },
+        "07-13": {
+          "tmax": 35.2,
+          "precip": 9.6
+        },
+        "07-14": {
+          "tmax": 31.6,
+          "precip": 11.1
+        },
+        "07-15": {
+          "tmax": 36.2,
+          "precip": 0.0
+        },
+        "07-16": {
+          "tmax": 35.1,
+          "precip": 0.0
+        },
+        "07-17": {
+          "tmax": 35.2,
+          "precip": 3.0
+        },
+        "07-18": {
+          "tmax": 30.7,
+          "precip": 9.6
+        },
+        "07-19": {
+          "tmax": 31.3,
+          "precip": 0.0
+        },
+        "07-20": {
+          "tmax": 33.3,
+          "precip": 3.6
+        },
+        "07-21": {
+          "tmax": 34.1,
+          "precip": 5.1
+        },
+        "07-22": {
+          "tmax": 34.2,
+          "precip": 2.1
+        },
+        "07-23": {
+          "tmax": 33.3,
+          "precip": 6.6
+        }
+      }
+    },
+    "quancheng": {
+      "name": "泉城站",
+      "type": "supply",
+      "lon": 117.05,
+      "lat": 36.72,
+      "population": null,
+      "population_weight": null,
+      "weather": {
+        "07-09": {
+          "tmax": 35.4,
+          "precip": 9.2
+        },
+        "07-10": {
+          "tmax": 35.7,
+          "precip": 0.0
+        },
+        "07-11": {
+          "tmax": 37.2,
+          "precip": 0.0
+        },
+        "07-12": {
+          "tmax": 37.0,
+          "precip": 0.0
+        },
+        "07-13": {
+          "tmax": 36.4,
+          "precip": 2.1
+        },
+        "07-14": {
+          "tmax": 29.8,
+          "precip": 4.5
+        },
+        "07-15": {
+          "tmax": 36.1,
+          "precip": 0.0
+        },
+        "07-16": {
+          "tmax": 38.0,
+          "precip": 0.0
+        },
+        "07-17": {
+          "tmax": 35.7,
+          "precip": 4.5
+        },
+        "07-18": {
+          "tmax": 30.9,
+          "precip": 14.1
+        },
+        "07-19": {
+          "tmax": 32.1,
+          "precip": 0.0
+        },
+        "07-20": {
+          "tmax": 31.8,
+          "precip": 3.6
+        },
+        "07-21": {
+          "tmax": 33.0,
+          "precip": 6.6
+        },
+        "07-22": {
+          "tmax": 33.2,
+          "precip": 3.6
+        },
+        "07-23": {
+          "tmax": 33.9,
+          "precip": 1.8
+        }
+      }
+    },
+    "caozhou": {
+      "name": "曹州站",
+      "type": "supply",
+      "lon": 115.45,
+      "lat": 35.25,
+      "population": null,
+      "population_weight": null,
+      "weather": {
+        "07-09": {
+          "tmax": 35.5,
+          "precip": 0.7
+        },
+        "07-10": {
+          "tmax": 35.1,
+          "precip": 0.5
+        },
+        "07-11": {
+          "tmax": 35.4,
+          "precip": 0.1
+        },
+        "07-12": {
+          "tmax": 34.7,
+          "precip": 0.7
+        },
+        "07-13": {
+          "tmax": 32.4,
+          "precip": 19.7
+        },
+        "07-14": {
+          "tmax": 31.2,
+          "precip": 48.3
+        },
+        "07-15": {
+          "tmax": 32.2,
+          "precip": 0.0
+        },
+        "07-16": {
+          "tmax": 33.1,
+          "precip": 0.0
+        },
+        "07-17": {
+          "tmax": 30.7,
+          "precip": 0.0
+        },
+        "07-18": {
+          "tmax": 29.8,
+          "precip": 1.5
+        },
+        "07-19": {
+          "tmax": 26.8,
+          "precip": 0.9
+        },
+        "07-20": {
+          "tmax": 29.9,
+          "precip": 2.1
+        },
+        "07-21": {
+          "tmax": 32.0,
+          "precip": 6.6
+        },
+        "07-22": {
+          "tmax": 32.7,
+          "precip": 3.3
+        },
+        "07-23": {
+          "tmax": 33.8,
+          "precip": 8.4
+        }
+      }
+    },
+    "guanggu": {
+      "name": "广固站",
+      "type": "supply",
+      "lon": 119.1,
+      "lat": 36.75,
+      "population": null,
+      "population_weight": null,
+      "weather": {
+        "07-09": {
+          "tmax": 32.4,
+          "precip": 9.7
+        },
+        "07-10": {
+          "tmax": 36.3,
+          "precip": 0.8
+        },
+        "07-11": {
+          "tmax": 36.3,
+          "precip": 0.0
+        },
+        "07-12": {
+          "tmax": 35.9,
+          "precip": 0.0
+        },
+        "07-13": {
+          "tmax": 34.6,
+          "precip": 0.0
+        },
+        "07-14": {
+          "tmax": 31.9,
+          "precip": 11.1
+        },
+        "07-15": {
+          "tmax": 35.6,
+          "precip": 0.6
+        },
+        "07-16": {
+          "tmax": 37.3,
+          "precip": 0.0
+        },
+        "07-17": {
+          "tmax": 35.1,
+          "precip": 0.6
+        },
+        "07-18": {
+          "tmax": 27.6,
+          "precip": 31.2
+        },
+        "07-19": {
+          "tmax": 30.3,
+          "precip": 0.0
+        },
+        "07-20": {
+          "tmax": 31.9,
+          "precip": 0.6
+        },
+        "07-21": {
+          "tmax": 33.4,
+          "precip": 1.8
+        },
+        "07-22": {
+          "tmax": 33.7,
+          "precip": 6.6
+        },
+        "07-23": {
+          "tmax": 33.6,
+          "precip": 6.0
+        }
+      }
+    },
+    "yinan": {
+      "name": "沂南站",
+      "type": "supply",
+      "lon": 118.35,
+      "lat": 35.55,
+      "population": null,
+      "population_weight": null,
+      "weather": {
+        "07-09": {
+          "tmax": 30.6,
+          "precip": 11.4
+        },
+        "07-10": {
+          "tmax": 32.7,
+          "precip": 0.8
+        },
+        "07-11": {
+          "tmax": 31.9,
+          "precip": 0.0
+        },
+        "07-12": {
+          "tmax": 30.3,
+          "precip": 1.4
+        },
+        "07-13": {
+          "tmax": 31.3,
+          "precip": 7.8
+        },
+        "07-14": {
+          "tmax": 27.1,
+          "precip": 20.4
+        },
+        "07-15": {
+          "tmax": 33.3,
+          "precip": 0.0
+        },
+        "07-16": {
+          "tmax": 29.9,
+          "precip": 0.6
+        },
+        "07-17": {
+          "tmax": 29.7,
+          "precip": 8.1
+        },
+        "07-18": {
+          "tmax": 27.8,
+          "precip": 33.6
+        },
+        "07-19": {
+          "tmax": 28.3,
+          "precip": 5.1
+        },
+        "07-20": {
+          "tmax": 25.9,
+          "precip": 30.3
+        },
+        "07-21": {
+          "tmax": 31.4,
+          "precip": 3.0
+        },
+        "07-22": {
+          "tmax": 32.3,
+          "precip": 18.9
+        },
+        "07-23": {
+          "tmax": 33.0,
+          "precip": 0.6
+        }
+      }
+    },
+    "jiaodong": {
+      "name": "胶东换",
+      "type": "supply",
+      "lon": 120.5,
+      "lat": 37.2,
+      "population": null,
+      "population_weight": null,
+      "weather": {
+        "07-09": {
+          "tmax": 30.7,
+          "precip": 1.8
+        },
+        "07-10": {
+          "tmax": 32.3,
+          "precip": 1.4
+        },
+        "07-11": {
+          "tmax": 31.4,
+          "precip": 0.0
+        },
+        "07-12": {
+          "tmax": 32.6,
+          "precip": 0.0
+        },
+        "07-13": {
+          "tmax": 30.5,
+          "precip": 0.6
+        },
+        "07-14": {
+          "tmax": 33.8,
+          "precip": 24.3
+        },
+        "07-15": {
+          "tmax": 31.3,
+          "precip": 2.1
+        },
+        "07-16": {
+          "tmax": 32.7,
+          "precip": 0.0
+        },
+        "07-17": {
+          "tmax": 30.1,
+          "precip": 0.0
+        },
+        "07-18": {
+          "tmax": 26.0,
+          "precip": 52.2
+        },
+        "07-19": {
+          "tmax": 27.7,
+          "precip": 12.0
+        },
+        "07-20": {
+          "tmax": 32.4,
+          "precip": 0.0
+        },
+        "07-21": {
+          "tmax": 29.6,
+          "precip": 1.8
+        },
+        "07-22": {
+          "tmax": 31.5,
+          "precip": 2.4
+        },
+        "07-23": {
+          "tmax": 30.6,
+          "precip": 9.0
+        }
+      }
+    },
+    "longdong": {
+      "name": "陇东受端",
+      "type": "supply",
+      "lon": 116.35,
+      "lat": 37.45,
+      "population": null,
+      "population_weight": null,
+      "weather": {
+        "07-09": {
+          "tmax": 36.6,
+          "precip": 4.3
+        },
+        "07-10": {
+          "tmax": 36.3,
+          "precip": 4.7
+        },
+        "07-11": {
+          "tmax": 37.4,
+          "precip": 3.0
+        },
+        "07-12": {
+          "tmax": 39.2,
+          "precip": 0.1
+        },
+        "07-13": {
+          "tmax": 35.5,
+          "precip": 7.5
+        },
+        "07-14": {
+          "tmax": 30.6,
+          "precip": 9.9
+        },
+        "07-15": {
+          "tmax": 35.0,
+          "precip": 0.0
+        },
+        "07-16": {
+          "tmax": 35.3,
+          "precip": 0.0
+        },
+        "07-17": {
+          "tmax": 36.3,
+          "precip": 1.2
+        },
+        "07-18": {
+          "tmax": 28.8,
+          "precip": 56.4
+        },
+        "07-19": {
+          "tmax": 32.4,
+          "precip": 0.0
+        },
+        "07-20": {
+          "tmax": 31.9,
+          "precip": 0.3
+        },
+        "07-21": {
+          "tmax": 33.1,
+          "precip": 2.4
+        },
+        "07-22": {
+          "tmax": 33.0,
+          "precip": 2.4
+        },
+        "07-23": {
+          "tmax": 33.0,
+          "precip": 4.5
+        }
+      }
+    },
+    "west_renewable": {
+      "name": "西部风光",
+      "type": "supply",
+      "lon": 115.95,
+      "lat": 36.85,
+      "population": null,
+      "population_weight": null,
+      "weather": {
+        "07-09": {
+          "tmax": 35.5,
+          "precip": 4.1
+        },
+        "07-10": {
+          "tmax": 35.6,
+          "precip": 0.6
+        },
+        "07-11": {
+          "tmax": 36.5,
+          "precip": 0.0
+        },
+        "07-12": {
+          "tmax": 36.4,
+          "precip": 0.7
+        },
+        "07-13": {
+          "tmax": 34.2,
+          "precip": 8.4
+        },
+        "07-14": {
+          "tmax": 31.2,
+          "precip": 12.6
+        },
+        "07-15": {
+          "tmax": 34.8,
+          "precip": 0.0
+        },
+        "07-16": {
+          "tmax": 35.0,
+          "precip": 0.0
+        },
+        "07-17": {
+          "tmax": 33.8,
+          "precip": 4.8
+        },
+        "07-18": {
+          "tmax": 30.3,
+          "precip": 51.0
+        },
+        "07-19": {
+          "tmax": 32.2,
+          "precip": 0.0
+        },
+        "07-20": {
+          "tmax": 32.4,
+          "precip": 1.2
+        },
+        "07-21": {
+          "tmax": 32.7,
+          "precip": 2.7
+        },
+        "07-22": {
+          "tmax": 32.9,
+          "precip": 0.9
+        },
+        "07-23": {
+          "tmax": 32.2,
+          "precip": 6.3
+        }
+      }
+    },
+    "north_renewable": {
+      "name": "北部风光",
+      "type": "supply",
+      "lon": 117.95,
+      "lat": 37.85,
+      "population": null,
+      "population_weight": null,
+      "weather": {
+        "07-09": {
+          "tmax": 31.4,
+          "precip": 3.8
+        },
+        "07-10": {
+          "tmax": 34.6,
+          "precip": 5.9
+        },
+        "07-11": {
+          "tmax": 35.7,
+          "precip": 1.5
+        },
+        "07-12": {
+          "tmax": 35.4,
+          "precip": 0.0
+        },
+        "07-13": {
+          "tmax": 34.3,
+          "precip": 0.0
+        },
+        "07-14": {
+          "tmax": 28.9,
+          "precip": 42.6
+        },
+        "07-15": {
+          "tmax": 32.0,
+          "precip": 0.0
+        },
+        "07-16": {
+          "tmax": 34.3,
+          "precip": 0.0
+        },
+        "07-17": {
+          "tmax": 32.5,
+          "precip": 7.2
+        },
+        "07-18": {
+          "tmax": 26.9,
+          "precip": 37.2
+        },
+        "07-19": {
+          "tmax": 31.7,
+          "precip": 0.0
+        },
+        "07-20": {
+          "tmax": 32.5,
+          "precip": 0.0
+        },
+        "07-21": {
+          "tmax": 30.5,
+          "precip": 7.8
+        },
+        "07-22": {
+          "tmax": 31.5,
+          "precip": 9.9
+        },
+        "07-23": {
+          "tmax": 30.4,
+          "precip": 3.9
+        }
+      }
+    }
+  },
+  "price_series": [
+    {
+      "date": "07-09",
+      "score": 416.3,
+      "risk": "high",
+      "demand_count": 4,
+      "supply_count": 3,
+      "affected_pop": 2912.4
+    },
+    {
+      "date": "07-10",
+      "score": 453.8,
+      "risk": "high",
+      "demand_count": 7,
+      "supply_count": 1,
+      "affected_pop": 5423.32
+    },
+    {
+      "date": "07-11",
+      "score": 436.6,
+      "risk": "medium",
+      "demand_count": 6,
+      "supply_count": 0,
+      "affected_pop": 4321.48
+    },
+    {
+      "date": "07-12",
+      "score": 436.6,
+      "risk": "medium",
+      "demand_count": 6,
+      "supply_count": 0,
+      "affected_pop": 4321.48
+    },
+    {
+      "date": "07-13",
+      "score": 442.0,
+      "risk": "high",
+      "demand_count": 6,
+      "supply_count": 4,
+      "affected_pop": 4321.48
+    },
+    {
+      "date": "07-14",
+      "score": 425.0,
+      "risk": "low",
+      "demand_count": 0,
+      "supply_count": 7,
+      "affected_pop": 0.0
+    },
+    {
+      "date": "07-15",
+      "score": 437.4,
+      "risk": "medium",
+      "demand_count": 7,
+      "supply_count": 0,
+      "affected_pop": 5423.32
+    },
+    {
+      "date": "07-16",
+      "score": 433.8,
+      "risk": "medium",
+      "demand_count": 6,
+      "supply_count": 0,
+      "affected_pop": 4321.48
+    },
+    {
+      "date": "07-17",
+      "score": 411.0,
+      "risk": "high",
+      "demand_count": 5,
+      "supply_count": 2,
+      "affected_pop": 3485.69
+    },
+    {
+      "date": "07-18",
+      "score": 445.0,
+      "risk": "low",
+      "demand_count": 0,
+      "supply_count": 7,
+      "affected_pop": 0.0
+    },
+    {
+      "date": "07-19",
+      "score": 360.0,
+      "risk": "low",
+      "demand_count": 0,
+      "supply_count": 2,
+      "affected_pop": 0.0
+    },
+    {
+      "date": "07-20",
+      "score": 372.5,
+      "risk": "high",
+      "demand_count": 1,
+      "supply_count": 1,
+      "affected_pop": 595.25
+    },
+    {
+      "date": "07-21",
+      "score": 391.4,
+      "risk": "high",
+      "demand_count": 3,
+      "supply_count": 3,
+      "affected_pop": 2095.04
+    },
+    {
+      "date": "07-22",
+      "score": 412.4,
+      "risk": "high",
+      "demand_count": 5,
+      "supply_count": 3,
+      "affected_pop": 3760.36
+    },
+    {
+      "date": "07-23",
+      "score": 417.4,
+      "risk": "high",
+      "demand_count": 5,
+      "supply_count": 4,
+      "affected_pop": 3760.36
+    }
+  ],
+  "cross_sections": [
+    {
+      "date": "07-09",
+      "id": "central_load",
+      "name": "鲁中受端断面",
+      "type": "demand",
+      "capacity_mw": 30000,
+      "load_mw": 21900.0,
+      "utilization": 0.73,
+      "risk": "medium",
+      "message": "鲁中受端断面 07-09 负载 21900/30000 MW （利用率 73.0%）"
+    },
+    {
+      "date": "07-10",
+      "id": "central_load",
+      "name": "鲁中受端断面",
+      "type": "demand",
+      "capacity_mw": 30000,
+      "load_mw": 25200.0,
+      "utilization": 0.84,
+      "risk": "medium",
+      "message": "鲁中受端断面 07-10 负载 25200/30000 MW （利用率 84.0%）"
+    },
+    {
+      "date": "07-11",
+      "id": "central_load",
+      "name": "鲁中受端断面",
+      "type": "demand",
+      "capacity_mw": 30000,
+      "load_mw": 27180.0,
+      "utilization": 0.906,
+      "risk": "high",
+      "message": "鲁中受端断面 07-11 负载 27180/30000 MW （利用率 90.6%）"
+    },
+    {
+      "date": "07-12",
+      "id": "central_load",
+      "name": "鲁中受端断面",
+      "type": "demand",
+      "capacity_mw": 30000,
+      "load_mw": 28500.0,
+      "utilization": 0.95,
+      "risk": "high",
+      "message": "鲁中受端断面 07-12 负载 28500/30000 MW （利用率 95.0%）"
+    },
+    {
+      "date": "07-13",
+      "id": "central_load",
+      "name": "鲁中受端断面",
+      "type": "demand",
+      "capacity_mw": 30000,
+      "load_mw": 25440.0,
+      "utilization": 0.848,
+      "risk": "medium",
+      "message": "鲁中受端断面 07-13 负载 25440/30000 MW （利用率 84.8%）"
+    },
+    {
+      "date": "07-14",
+      "id": "central_load",
+      "name": "鲁中受端断面",
+      "type": "demand",
+      "capacity_mw": 30000,
+      "load_mw": 18000.0,
+      "utilization": 0.6,
+      "risk": "low",
+      "message": "鲁中受端断面 07-14 负载 18000/30000 MW （利用率 60.0%）"
+    },
+    {
+      "date": "07-15",
+      "id": "central_load",
+      "name": "鲁中受端断面",
+      "type": "demand",
+      "capacity_mw": 30000,
+      "load_mw": 22920.0,
+      "utilization": 0.764,
+      "risk": "medium",
+      "message": "鲁中受端断面 07-15 负载 22920/30000 MW （利用率 76.4%）"
+    },
+    {
+      "date": "07-16",
+      "id": "central_load",
+      "name": "鲁中受端断面",
+      "type": "demand",
+      "capacity_mw": 30000,
+      "load_mw": 26700.0,
+      "utilization": 0.89,
+      "risk": "high",
+      "message": "鲁中受端断面 07-16 负载 26700/30000 MW （利用率 89.0%）"
+    },
+    {
+      "date": "07-17",
+      "id": "central_load",
+      "name": "鲁中受端断面",
+      "type": "demand",
+      "capacity_mw": 30000,
+      "load_mw": 24000.0,
+      "utilization": 0.8,
+      "risk": "medium",
+      "message": "鲁中受端断面 07-17 负载 24000/30000 MW （利用率 80.0%）"
+    },
+    {
+      "date": "07-18",
+      "id": "central_load",
+      "name": "鲁中受端断面",
+      "type": "demand",
+      "capacity_mw": 30000,
+      "load_mw": 18000.0,
+      "utilization": 0.6,
+      "risk": "low",
+      "message": "鲁中受端断面 07-18 负载 18000/30000 MW （利用率 60.0%）"
+    },
+    {
+      "date": "07-19",
+      "id": "central_load",
+      "name": "鲁中受端断面",
+      "type": "demand",
+      "capacity_mw": 30000,
+      "load_mw": 18000.0,
+      "utilization": 0.6,
+      "risk": "low",
+      "message": "鲁中受端断面 07-19 负载 18000/30000 MW （利用率 60.0%）"
+    },
+    {
+      "date": "07-20",
+      "id": "central_load",
+      "name": "鲁中受端断面",
+      "type": "demand",
+      "capacity_mw": 30000,
+      "load_mw": 18000.0,
+      "utilization": 0.6,
+      "risk": "low",
+      "message": "鲁中受端断面 07-20 负载 18000/30000 MW （利用率 60.0%）"
+    },
+    {
+      "date": "07-21",
+      "id": "central_load",
+      "name": "鲁中受端断面",
+      "type": "demand",
+      "capacity_mw": 30000,
+      "load_mw": 18120.0,
+      "utilization": 0.604,
+      "risk": "low",
+      "message": "鲁中受端断面 07-21 负载 18120/30000 MW （利用率 60.4%）"
+    },
+    {
+      "date": "07-22",
+      "id": "central_load",
+      "name": "鲁中受端断面",
+      "type": "demand",
+      "capacity_mw": 30000,
+      "load_mw": 18780.0,
+      "utilization": 0.626,
+      "risk": "low",
+      "message": "鲁中受端断面 07-22 负载 18780/30000 MW （利用率 62.6%）"
+    },
+    {
+      "date": "07-23",
+      "id": "central_load",
+      "name": "鲁中受端断面",
+      "type": "demand",
+      "capacity_mw": 30000,
+      "load_mw": 18960.0,
+      "utilization": 0.632,
+      "risk": "low",
+      "message": "鲁中受端断面 07-23 负载 18960/30000 MW （利用率 63.2%）"
+    },
+    {
+      "date": "07-09",
+      "id": "jiaodong_load",
+      "name": "胶东受端断面",
+      "type": "demand",
+      "capacity_mw": 25000,
+      "load_mw": 15000.0,
+      "utilization": 0.6,
+      "risk": "low",
+      "message": "胶东受端断面 07-09 负载 15000/25000 MW （利用率 60.0%）"
+    },
+    {
+      "date": "07-10",
+      "id": "jiaodong_load",
+      "name": "胶东受端断面",
+      "type": "demand",
+      "capacity_mw": 25000,
+      "load_mw": 16650.0,
+      "utilization": 0.666,
+      "risk": "low",
+      "message": "胶东受端断面 07-10 负载 16650/25000 MW （利用率 66.6%）"
+    },
+    {
+      "date": "07-11",
+      "id": "jiaodong_load",
+      "name": "胶东受端断面",
+      "type": "demand",
+      "capacity_mw": 25000,
+      "load_mw": 16450.0,
+      "utilization": 0.658,
+      "risk": "low",
+      "message": "胶东受端断面 07-11 负载 16450/25000 MW （利用率 65.8%）"
+    },
+    {
+      "date": "07-12",
+      "id": "jiaodong_load",
+      "name": "胶东受端断面",
+      "type": "demand",
+      "capacity_mw": 25000,
+      "load_mw": 16200.0,
+      "utilization": 0.648,
+      "risk": "low",
+      "message": "胶东受端断面 07-12 负载 16200/25000 MW （利用率 64.8%）"
+    },
+    {
+      "date": "07-13",
+      "id": "jiaodong_load",
+      "name": "胶东受端断面",
+      "type": "demand",
+      "capacity_mw": 25000,
+      "load_mw": 15450.0,
+      "utilization": 0.618,
+      "risk": "low",
+      "message": "胶东受端断面 07-13 负载 15450/25000 MW （利用率 61.8%）"
+    },
+    {
+      "date": "07-14",
+      "id": "jiaodong_load",
+      "name": "胶东受端断面",
+      "type": "demand",
+      "capacity_mw": 25000,
+      "load_mw": 15000.0,
+      "utilization": 0.6,
+      "risk": "low",
+      "message": "胶东受端断面 07-14 负载 15000/25000 MW （利用率 60.0%）"
+    },
+    {
+      "date": "07-15",
+      "id": "jiaodong_load",
+      "name": "胶东受端断面",
+      "type": "demand",
+      "capacity_mw": 25000,
+      "load_mw": 16050.0,
+      "utilization": 0.642,
+      "risk": "low",
+      "message": "胶东受端断面 07-15 负载 16050/25000 MW （利用率 64.2%）"
+    },
+    {
+      "date": "07-16",
+      "id": "jiaodong_load",
+      "name": "胶东受端断面",
+      "type": "demand",
+      "capacity_mw": 25000,
+      "load_mw": 16950.0,
+      "utilization": 0.678,
+      "risk": "low",
+      "message": "胶东受端断面 07-16 负载 16950/25000 MW （利用率 67.8%）"
+    },
+    {
+      "date": "07-17",
+      "id": "jiaodong_load",
+      "name": "胶东受端断面",
+      "type": "demand",
+      "capacity_mw": 25000,
+      "load_mw": 15750.0,
+      "utilization": 0.63,
+      "risk": "low",
+      "message": "胶东受端断面 07-17 负载 15750/25000 MW （利用率 63.0%）"
+    },
+    {
+      "date": "07-18",
+      "id": "jiaodong_load",
+      "name": "胶东受端断面",
+      "type": "demand",
+      "capacity_mw": 25000,
+      "load_mw": 15000.0,
+      "utilization": 0.6,
+      "risk": "low",
+      "message": "胶东受端断面 07-18 负载 15000/25000 MW （利用率 60.0%）"
+    },
+    {
+      "date": "07-19",
+      "id": "jiaodong_load",
+      "name": "胶东受端断面",
+      "type": "demand",
+      "capacity_mw": 25000,
+      "load_mw": 15000.0,
+      "utilization": 0.6,
+      "risk": "low",
+      "message": "胶东受端断面 07-19 负载 15000/25000 MW （利用率 60.0%）"
+    },
+    {
+      "date": "07-20",
+      "id": "jiaodong_load",
+      "name": "胶东受端断面",
+      "type": "demand",
+      "capacity_mw": 25000,
+      "load_mw": 15000.0,
+      "utilization": 0.6,
+      "risk": "low",
+      "message": "胶东受端断面 07-20 负载 15000/25000 MW （利用率 60.0%）"
+    },
+    {
+      "date": "07-21",
+      "id": "jiaodong_load",
+      "name": "胶东受端断面",
+      "type": "demand",
+      "capacity_mw": 25000,
+      "load_mw": 15050.0,
+      "utilization": 0.602,
+      "risk": "low",
+      "message": "胶东受端断面 07-21 负载 15050/25000 MW （利用率 60.2%）"
+    },
+    {
+      "date": "07-22",
+      "id": "jiaodong_load",
+      "name": "胶东受端断面",
+      "type": "demand",
+      "capacity_mw": 25000,
+      "load_mw": 15050.0,
+      "utilization": 0.602,
+      "risk": "low",
+      "message": "胶东受端断面 07-22 负载 15050/25000 MW （利用率 60.2%）"
+    },
+    {
+      "date": "07-23",
+      "id": "jiaodong_load",
+      "name": "胶东受端断面",
+      "type": "demand",
+      "capacity_mw": 25000,
+      "load_mw": 15150.0,
+      "utilization": 0.606,
+      "risk": "low",
+      "message": "胶东受端断面 07-23 负载 15150/25000 MW （利用率 60.6%）"
+    },
+    {
+      "date": "07-09",
+      "id": "lunan_load",
+      "name": "鲁南受端断面",
+      "type": "demand",
+      "capacity_mw": 20000,
+      "load_mw": 12680.0,
+      "utilization": 0.634,
+      "risk": "low",
+      "message": "鲁南受端断面 07-09 负载 12680/20000 MW （利用率 63.4%）"
+    },
+    {
+      "date": "07-10",
+      "id": "lunan_load",
+      "name": "鲁南受端断面",
+      "type": "demand",
+      "capacity_mw": 20000,
+      "load_mw": 14080.0,
+      "utilization": 0.704,
+      "risk": "medium",
+      "message": "鲁南受端断面 07-10 负载 14080/20000 MW （利用率 70.4%）"
+    },
+    {
+      "date": "07-11",
+      "id": "lunan_load",
+      "name": "鲁南受端断面",
+      "type": "demand",
+      "capacity_mw": 20000,
+      "load_mw": 13760.0,
+      "utilization": 0.688,
+      "risk": "low",
+      "message": "鲁南受端断面 07-11 负载 13760/20000 MW （利用率 68.8%）"
+    },
+    {
+      "date": "07-12",
+      "id": "lunan_load",
+      "name": "鲁南受端断面",
+      "type": "demand",
+      "capacity_mw": 20000,
+      "load_mw": 13720.0,
+      "utilization": 0.686,
+      "risk": "low",
+      "message": "鲁南受端断面 07-12 负载 13720/20000 MW （利用率 68.6%）"
+    },
+    {
+      "date": "07-13",
+      "id": "lunan_load",
+      "name": "鲁南受端断面",
+      "type": "demand",
+      "capacity_mw": 20000,
+      "load_mw": 12440.0,
+      "utilization": 0.622,
+      "risk": "low",
+      "message": "鲁南受端断面 07-13 负载 12440/20000 MW （利用率 62.2%）"
+    },
+    {
+      "date": "07-14",
+      "id": "lunan_load",
+      "name": "鲁南受端断面",
+      "type": "demand",
+      "capacity_mw": 20000,
+      "load_mw": 12000.0,
+      "utilization": 0.6,
+      "risk": "low",
+      "message": "鲁南受端断面 07-14 负载 12000/20000 MW （利用率 60.0%）"
+    },
+    {
+      "date": "07-15",
+      "id": "lunan_load",
+      "name": "鲁南受端断面",
+      "type": "demand",
+      "capacity_mw": 20000,
+      "load_mw": 13480.0,
+      "utilization": 0.674,
+      "risk": "low",
+      "message": "鲁南受端断面 07-15 负载 13480/20000 MW （利用率 67.4%）"
+    },
+    {
+      "date": "07-16",
+      "id": "lunan_load",
+      "name": "鲁南受端断面",
+      "type": "demand",
+      "capacity_mw": 20000,
+      "load_mw": 13920.0,
+      "utilization": 0.696,
+      "risk": "low",
+      "message": "鲁南受端断面 07-16 负载 13920/20000 MW （利用率 69.6%）"
+    },
+    {
+      "date": "07-17",
+      "id": "lunan_load",
+      "name": "鲁南受端断面",
+      "type": "demand",
+      "capacity_mw": 20000,
+      "load_mw": 12600.0,
+      "utilization": 0.63,
+      "risk": "low",
+      "message": "鲁南受端断面 07-17 负载 12600/20000 MW （利用率 63.0%）"
+    },
+    {
+      "date": "07-18",
+      "id": "lunan_load",
+      "name": "鲁南受端断面",
+      "type": "demand",
+      "capacity_mw": 20000,
+      "load_mw": 12000.0,
+      "utilization": 0.6,
+      "risk": "low",
+      "message": "鲁南受端断面 07-18 负载 12000/20000 MW （利用率 60.0%）"
+    },
+    {
+      "date": "07-19",
+      "id": "lunan_load",
+      "name": "鲁南受端断面",
+      "type": "demand",
+      "capacity_mw": 20000,
+      "load_mw": 12000.0,
+      "utilization": 0.6,
+      "risk": "low",
+      "message": "鲁南受端断面 07-19 负载 12000/20000 MW （利用率 60.0%）"
+    },
+    {
+      "date": "07-20",
+      "id": "lunan_load",
+      "name": "鲁南受端断面",
+      "type": "demand",
+      "capacity_mw": 20000,
+      "load_mw": 12000.0,
+      "utilization": 0.6,
+      "risk": "low",
+      "message": "鲁南受端断面 07-20 负载 12000/20000 MW （利用率 60.0%）"
+    },
+    {
+      "date": "07-21",
+      "id": "lunan_load",
+      "name": "鲁南受端断面",
+      "type": "demand",
+      "capacity_mw": 20000,
+      "load_mw": 12040.0,
+      "utilization": 0.602,
+      "risk": "low",
+      "message": "鲁南受端断面 07-21 负载 12040/20000 MW （利用率 60.2%）"
+    },
+    {
+      "date": "07-22",
+      "id": "lunan_load",
+      "name": "鲁南受端断面",
+      "type": "demand",
+      "capacity_mw": 20000,
+      "load_mw": 12160.0,
+      "utilization": 0.608,
+      "risk": "low",
+      "message": "鲁南受端断面 07-22 负载 12160/20000 MW （利用率 60.8%）"
+    },
+    {
+      "date": "07-23",
+      "id": "lunan_load",
+      "name": "鲁南受端断面",
+      "type": "demand",
+      "capacity_mw": 20000,
+      "load_mw": 12280.0,
+      "utilization": 0.614,
+      "risk": "low",
+      "message": "鲁南受端断面 07-23 负载 12280/20000 MW （利用率 61.4%）"
+    },
+    {
+      "date": "07-09",
+      "id": "external_inflow",
+      "name": "外电入鲁断面",
+      "type": "supply",
+      "capacity_mw": 35000,
+      "load_mw": 21212.0,
+      "utilization": 0.606,
+      "risk": "low",
+      "message": "外电入鲁断面 07-09 负载 21212/35000 MW （利用率 60.6%）"
+    },
+    {
+      "date": "07-10",
+      "id": "external_inflow",
+      "name": "外电入鲁断面",
+      "type": "supply",
+      "capacity_mw": 35000,
+      "load_mw": 17500.0,
+      "utilization": 0.5,
+      "risk": "low",
+      "message": "外电入鲁断面 07-10 负载 17500/35000 MW （利用率 50.0%）"
+    },
+    {
+      "date": "07-11",
+      "id": "external_inflow",
+      "name": "外电入鲁断面",
+      "type": "supply",
+      "capacity_mw": 35000,
+      "load_mw": 17500.0,
+      "utilization": 0.5,
+      "risk": "low",
+      "message": "外电入鲁断面 07-11 负载 17500/35000 MW （利用率 50.0%）"
+    },
+    {
+      "date": "07-12",
+      "id": "external_inflow",
+      "name": "外电入鲁断面",
+      "type": "supply",
+      "capacity_mw": 35000,
+      "load_mw": 17500.0,
+      "utilization": 0.5,
+      "risk": "low",
+      "message": "外电入鲁断面 07-12 负载 17500/35000 MW （利用率 50.0%）"
+    },
+    {
+      "date": "07-13",
+      "id": "external_inflow",
+      "name": "外电入鲁断面",
+      "type": "supply",
+      "capacity_mw": 35000,
+      "load_mw": 21788.0,
+      "utilization": 0.623,
+      "risk": "low",
+      "message": "外电入鲁断面 07-13 负载 21788/35000 MW （利用率 62.3%）"
+    },
+    {
+      "date": "07-14",
+      "id": "external_inflow",
+      "name": "外电入鲁断面",
+      "type": "supply",
+      "capacity_mw": 35000,
+      "load_mw": 27423.0,
+      "utilization": 0.784,
+      "risk": "medium",
+      "message": "外电入鲁断面 07-14 负载 27423/35000 MW （利用率 78.4%）"
+    },
+    {
+      "date": "07-15",
+      "id": "external_inflow",
+      "name": "外电入鲁断面",
+      "type": "supply",
+      "capacity_mw": 35000,
+      "load_mw": 17500.0,
+      "utilization": 0.5,
+      "risk": "low",
+      "message": "外电入鲁断面 07-15 负载 17500/35000 MW （利用率 50.0%）"
+    },
+    {
+      "date": "07-16",
+      "id": "external_inflow",
+      "name": "外电入鲁断面",
+      "type": "supply",
+      "capacity_mw": 35000,
+      "load_mw": 17500.0,
+      "utilization": 0.5,
+      "risk": "low",
+      "message": "外电入鲁断面 07-16 负载 17500/35000 MW （利用率 50.0%）"
+    },
+    {
+      "date": "07-17",
+      "id": "external_inflow",
+      "name": "外电入鲁断面",
+      "type": "supply",
+      "capacity_mw": 35000,
+      "load_mw": 18492.0,
+      "utilization": 0.528,
+      "risk": "low",
+      "message": "外电入鲁断面 07-17 负载 18492/35000 MW （利用率 52.8%）"
+    },
+    {
+      "date": "07-18",
+      "id": "external_inflow",
+      "name": "外电入鲁断面",
+      "type": "supply",
+      "capacity_mw": 35000,
+      "load_mw": 29027.0,
+      "utilization": 0.829,
+      "risk": "medium",
+      "message": "外电入鲁断面 07-18 负载 29027/35000 MW （利用率 82.9%）"
+    },
+    {
+      "date": "07-19",
+      "id": "external_inflow",
+      "name": "外电入鲁断面",
+      "type": "supply",
+      "capacity_mw": 35000,
+      "load_mw": 19595.0,
+      "utilization": 0.56,
+      "risk": "low",
+      "message": "外电入鲁断面 07-19 负载 19595/35000 MW （利用率 56.0%）"
+    },
+    {
+      "date": "07-20",
+      "id": "external_inflow",
+      "name": "外电入鲁断面",
+      "type": "supply",
+      "capacity_mw": 35000,
+      "load_mw": 19950.0,
+      "utilization": 0.57,
+      "risk": "low",
+      "message": "外电入鲁断面 07-20 负载 19950/35000 MW （利用率 57.0%）"
+    },
+    {
+      "date": "07-21",
+      "id": "external_inflow",
+      "name": "外电入鲁断面",
+      "type": "supply",
+      "capacity_mw": 35000,
+      "load_mw": 19117.0,
+      "utilization": 0.546,
+      "risk": "low",
+      "message": "外电入鲁断面 07-21 负载 19117/35000 MW （利用率 54.6%）"
+    },
+    {
+      "date": "07-22",
+      "id": "external_inflow",
+      "name": "外电入鲁断面",
+      "type": "supply",
+      "capacity_mw": 35000,
+      "load_mw": 20624.0,
+      "utilization": 0.589,
+      "risk": "low",
+      "message": "外电入鲁断面 07-22 负载 20624/35000 MW （利用率 58.9%）"
+    },
+    {
+      "date": "07-23",
+      "id": "external_inflow",
+      "name": "外电入鲁断面",
+      "type": "supply",
+      "capacity_mw": 35000,
+      "load_mw": 20366.0,
+      "utilization": 0.582,
+      "risk": "low",
+      "message": "外电入鲁断面 07-23 负载 20366/35000 MW （利用率 58.2%）"
+    },
+    {
+      "date": "07-09",
+      "id": "west_renewable",
+      "name": "西部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 15000,
+      "load_mw": 6000.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "西部风光送出断面 07-09 负载 6000/15000 MW （利用率 40.0%）"
+    },
+    {
+      "date": "07-10",
+      "id": "west_renewable",
+      "name": "西部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 15000,
+      "load_mw": 6000.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "西部风光送出断面 07-10 负载 6000/15000 MW （利用率 40.0%）"
+    },
+    {
+      "date": "07-11",
+      "id": "west_renewable",
+      "name": "西部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 15000,
+      "load_mw": 6000.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "西部风光送出断面 07-11 负载 6000/15000 MW （利用率 40.0%）"
+    },
+    {
+      "date": "07-12",
+      "id": "west_renewable",
+      "name": "西部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 15000,
+      "load_mw": 6000.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "西部风光送出断面 07-12 负载 6000/15000 MW （利用率 40.0%）"
+    },
+    {
+      "date": "07-13",
+      "id": "west_renewable",
+      "name": "西部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 15000,
+      "load_mw": 6441.0,
+      "utilization": 0.429,
+      "risk": "low",
+      "message": "西部风光送出断面 07-13 负载 6441/15000 MW （利用率 42.9%）"
+    },
+    {
+      "date": "07-14",
+      "id": "west_renewable",
+      "name": "西部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 15000,
+      "load_mw": 6662.0,
+      "utilization": 0.444,
+      "risk": "low",
+      "message": "西部风光送出断面 07-14 负载 6662/15000 MW （利用率 44.4%）"
+    },
+    {
+      "date": "07-15",
+      "id": "west_renewable",
+      "name": "西部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 15000,
+      "load_mw": 6000.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "西部风光送出断面 07-15 负载 6000/15000 MW （利用率 40.0%）"
+    },
+    {
+      "date": "07-16",
+      "id": "west_renewable",
+      "name": "西部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 15000,
+      "load_mw": 6000.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "西部风光送出断面 07-16 负载 6000/15000 MW （利用率 40.0%）"
+    },
+    {
+      "date": "07-17",
+      "id": "west_renewable",
+      "name": "西部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 15000,
+      "load_mw": 6000.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "西部风光送出断面 07-17 负载 6000/15000 MW （利用率 40.0%）"
+    },
+    {
+      "date": "07-18",
+      "id": "west_renewable",
+      "name": "西部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 15000,
+      "load_mw": 7050.0,
+      "utilization": 0.47,
+      "risk": "low",
+      "message": "西部风光送出断面 07-18 负载 7050/15000 MW （利用率 47.0%）"
+    },
+    {
+      "date": "07-19",
+      "id": "west_renewable",
+      "name": "西部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 15000,
+      "load_mw": 6000.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "西部风光送出断面 07-19 负载 6000/15000 MW （利用率 40.0%）"
+    },
+    {
+      "date": "07-20",
+      "id": "west_renewable",
+      "name": "西部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 15000,
+      "load_mw": 6000.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "西部风光送出断面 07-20 负载 6000/15000 MW （利用率 40.0%）"
+    },
+    {
+      "date": "07-21",
+      "id": "west_renewable",
+      "name": "西部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 15000,
+      "load_mw": 6000.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "西部风光送出断面 07-21 负载 6000/15000 MW （利用率 40.0%）"
+    },
+    {
+      "date": "07-22",
+      "id": "west_renewable",
+      "name": "西部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 15000,
+      "load_mw": 6000.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "西部风光送出断面 07-22 负载 6000/15000 MW （利用率 40.0%）"
+    },
+    {
+      "date": "07-23",
+      "id": "west_renewable",
+      "name": "西部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 15000,
+      "load_mw": 6331.0,
+      "utilization": 0.422,
+      "risk": "low",
+      "message": "西部风光送出断面 07-23 负载 6331/15000 MW （利用率 42.2%）"
+    },
+    {
+      "date": "07-09",
+      "id": "north_renewable",
+      "name": "北部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 12000,
+      "load_mw": 4800.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "北部风光送出断面 07-09 负载 4800/12000 MW （利用率 40.0%）"
+    },
+    {
+      "date": "07-10",
+      "id": "north_renewable",
+      "name": "北部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 12000,
+      "load_mw": 5048.0,
+      "utilization": 0.421,
+      "risk": "low",
+      "message": "北部风光送出断面 07-10 负载 5048/12000 MW （利用率 42.1%）"
+    },
+    {
+      "date": "07-11",
+      "id": "north_renewable",
+      "name": "北部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 12000,
+      "load_mw": 4800.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "北部风光送出断面 07-11 负载 4800/12000 MW （利用率 40.0%）"
+    },
+    {
+      "date": "07-12",
+      "id": "north_renewable",
+      "name": "北部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 12000,
+      "load_mw": 4800.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "北部风光送出断面 07-12 负载 4800/12000 MW （利用率 40.0%）"
+    },
+    {
+      "date": "07-13",
+      "id": "north_renewable",
+      "name": "北部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 12000,
+      "load_mw": 4800.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "北部风光送出断面 07-13 负载 4800/12000 MW （利用率 40.0%）"
+    },
+    {
+      "date": "07-14",
+      "id": "north_renewable",
+      "name": "北部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 12000,
+      "load_mw": 5640.0,
+      "utilization": 0.47,
+      "risk": "low",
+      "message": "北部风光送出断面 07-14 负载 5640/12000 MW （利用率 47.0%）"
+    },
+    {
+      "date": "07-15",
+      "id": "north_renewable",
+      "name": "北部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 12000,
+      "load_mw": 4800.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "北部风光送出断面 07-15 负载 4800/12000 MW （利用率 40.0%）"
+    },
+    {
+      "date": "07-16",
+      "id": "north_renewable",
+      "name": "北部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 12000,
+      "load_mw": 4800.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "北部风光送出断面 07-16 负载 4800/12000 MW （利用率 40.0%）"
+    },
+    {
+      "date": "07-17",
+      "id": "north_renewable",
+      "name": "北部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 12000,
+      "load_mw": 5102.0,
+      "utilization": 0.425,
+      "risk": "low",
+      "message": "北部风光送出断面 07-17 负载 5102/12000 MW （利用率 42.5%）"
+    },
+    {
+      "date": "07-18",
+      "id": "north_renewable",
+      "name": "北部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 12000,
+      "load_mw": 5640.0,
+      "utilization": 0.47,
+      "risk": "low",
+      "message": "北部风光送出断面 07-18 负载 5640/12000 MW （利用率 47.0%）"
+    },
+    {
+      "date": "07-19",
+      "id": "north_renewable",
+      "name": "北部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 12000,
+      "load_mw": 4800.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "北部风光送出断面 07-19 负载 4800/12000 MW （利用率 40.0%）"
+    },
+    {
+      "date": "07-20",
+      "id": "north_renewable",
+      "name": "北部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 12000,
+      "load_mw": 4800.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "北部风光送出断面 07-20 负载 4800/12000 MW （利用率 40.0%）"
+    },
+    {
+      "date": "07-21",
+      "id": "north_renewable",
+      "name": "北部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 12000,
+      "load_mw": 5128.0,
+      "utilization": 0.427,
+      "risk": "low",
+      "message": "北部风光送出断面 07-21 负载 5128/12000 MW （利用率 42.7%）"
+    },
+    {
+      "date": "07-22",
+      "id": "north_renewable",
+      "name": "北部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 12000,
+      "load_mw": 5216.0,
+      "utilization": 0.435,
+      "risk": "low",
+      "message": "北部风光送出断面 07-22 负载 5216/12000 MW （利用率 43.5%）"
+    },
+    {
+      "date": "07-23",
+      "id": "north_renewable",
+      "name": "北部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 12000,
+      "load_mw": 4800.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "北部风光送出断面 07-23 负载 4800/12000 MW （利用率 40.0%）"
+    }
+  ]
+}
