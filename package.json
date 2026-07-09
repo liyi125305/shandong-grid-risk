@@ -1,0 +1,12 @@
+{
+  "name": "shandong-grid-risk-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler pages deploy web",
+    "dev": "python3 -m http.server 8081"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
