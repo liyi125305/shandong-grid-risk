@@ -1,8 +1,7 @@
 {
-  "generated_at": "2026-08-25T06:44:14.797082+00:00",
+  "generated_at": "2026-08-26T06:46:04.251967+00:00",
   "base_price": 350.0,
   "dates": [
-    "08-25",
     "08-26",
     "08-27",
     "08-28",
@@ -16,7 +15,8 @@
     "09-05",
     "09-06",
     "09-07",
-    "09-08"
+    "09-08",
+    "09-09"
   ],
   "nodes": {
     "jinan": {
@@ -27,65 +27,65 @@
       "population": 9202400,
       "population_weight": 1.1598445541434723,
       "weather": {
-        "08-25": {
-          "tmax": 33.8,
-          "precip": 3.3
-        },
         "08-26": {
-          "tmax": 33.4,
-          "precip": 0.0
+          "tmax": 34.7,
+          "precip": 0.1
         },
         "08-27": {
-          "tmax": 29.9,
-          "precip": 0.6
+          "tmax": 28.7,
+          "precip": 3.5
         },
         "08-28": {
-          "tmax": 30.5,
-          "precip": 0.4
+          "tmax": 26.4,
+          "precip": 0.2
         },
         "08-29": {
-          "tmax": 28.6,
-          "precip": 0.0
+          "tmax": 29.1,
+          "precip": 3.0
         },
         "08-30": {
-          "tmax": 33.8,
+          "tmax": 30.3,
           "precip": 0.0
         },
         "08-31": {
-          "tmax": 32.6,
+          "tmax": 32.9,
           "precip": 0.0
         },
         "09-01": {
-          "tmax": 28.9,
-          "precip": 0.6
+          "tmax": 29.0,
+          "precip": 0.0
         },
         "09-02": {
-          "tmax": 29.8,
+          "tmax": 29.5,
           "precip": 0.0
         },
         "09-03": {
-          "tmax": 32.6,
+          "tmax": 28.6,
           "precip": 0.0
         },
         "09-04": {
-          "tmax": 33.5,
+          "tmax": 29.9,
           "precip": 0.0
         },
         "09-05": {
-          "tmax": 33.6,
+          "tmax": 31.2,
           "precip": 0.0
         },
         "09-06": {
-          "tmax": 33.2,
+          "tmax": 33.8,
           "precip": 0.0
         },
         "09-07": {
-          "tmax": 33.3,
+          "tmax": 34.3,
           "precip": 0.0
         },
         "09-08": {
-          "tmax": 27.6,
-          "precip": 7.0
+          "tmax": 29.5,
+          "precip": 12.3
+        },
+        "09-09": {
+          "tmax": 24.9,
+          "precip": 0.9
         }
       }
     },
@@ -97,65 +97,65 @@
       "population": 10071700,
       "population_weight": 1.26940867555929,
       "weather": {
-        "08-25": {
-          "tmax": 29.4,
-          "precip": 1.0
-        },
         "08-26": {
-          "tmax": 29.0,
-          "precip": 0.4
+          "tmax": 29.8,
+          "precip": 0.0
         },
         "08-27": {
-          "tmax": 29.4,
-          "precip": 0.2
+          "tmax": 30.4,
+          "precip": 2.5
         },
         "08-28": {
-          "tmax": 30.1,
-          "precip": 0.0
+          "tmax": 28.9,
+          "precip": 0.1
         },
         "08-29": {
-          "tmax": 30.5,
-          "precip": 1.8
+          "tmax": 30.3,
+          "precip": 2.4
         },
         "08-30": {
-          "tmax": 28.1,
-          "precip": 0.0
+          "tmax": 26.8,
+          "precip": 1.5
         },
         "08-31": {
-          "tmax": 32.2,
+          "tmax": 31.5,
           "precip": 0.0
         },
         "09-01": {
-          "tmax": 30.1,
+          "tmax": 29.7,
           "precip": 0.0
         },
         "09-02": {
-          "tmax": 31.2,
+          "tmax": 29.0,
           "precip": 0.0
         },
         "09-03": {
-          "tmax": 32.0,
-          "precip": 0.0
+          "tmax": 31.5,
+          "precip": 0.6
         },
         "09-04": {
-          "tmax": 31.3,
+          "tmax": 30.5,
           "precip": 0.0
         },
         "09-05": {
-          "tmax": 28.9,
+          "tmax": 31.1,
           "precip": 0.0
         },
         "09-06": {
-          "tmax": 29.3,
+          "tmax": 30.0,
           "precip": 0.0
         },
         "09-07": {
-          "tmax": 28.3,
+          "tmax": 30.4,
           "precip": 0.0
         },
         "09-08": {
-          "tmax": 27.6,
-          "precip": 5.4
+          "tmax": 29.2,
+          "precip": 2.7
+        },
+        "09-09": {
+          "tmax": 26.2,
+          "precip": 2.7
         }
       }
     },
@@ -167,65 +167,65 @@
       "population": 7102600,
       "population_weight": 0.8951916815460561,
       "weather": {
-        "08-25": {
-          "tmax": 31.9,
-          "precip": 3.4
-        },
         "08-26": {
-          "tmax": 32.3,
-          "precip": 0.1
+          "tmax": 31.3,
+          "precip": 1.4
         },
         "08-27": {
-          "tmax": 25.8,
-          "precip": 50.9
+          "tmax": 27.9,
+          "precip": 22.8
         },
         "08-28": {
-          "tmax": 28.3,
-          "precip": 3.7
+          "tmax": 26.0,
+          "precip": 33.9
         },
         "08-29": {
-          "tmax": 25.8,
-          "precip": 4.8
+          "tmax": 23.1,
+          "precip": 20.4
         },
         "08-30": {
-          "tmax": 29.1,
-          "precip": 0.0
-        },
-        "08-31": {
-          "tmax": 27.2,
-          "precip": 0.3
-        },
-        "09-01": {
-          "tmax": 25.2,
-          "precip": 1.5
-        },
-        "09-02": {
-          "tmax": 26.1,
-          "precip": 0.6
-        },
-        "09-03": {
           "tmax": 26.9,
           "precip": 0.0
         },
+        "08-31": {
+          "tmax": 28.5,
+          "precip": 0.3
+        },
+        "09-01": {
+          "tmax": 24.4,
+          "precip": 0.6
+        },
+        "09-02": {
+          "tmax": 24.1,
+          "precip": 0.0
+        },
+        "09-03": {
+          "tmax": 26.6,
+          "precip": 0.6
+        },
         "09-04": {
-          "tmax": 27.2,
+          "tmax": 26.2,
           "precip": 0.0
         },
         "09-05": {
-          "tmax": 27.8,
-          "precip": 0.6
+          "tmax": 26.2,
+          "precip": 0.0
         },
         "09-06": {
-          "tmax": 28.0,
+          "tmax": 27.1,
           "precip": 0.0
         },
         "09-07": {
-          "tmax": 27.0,
+          "tmax": 31.5,
           "precip": 0.0
         },
         "09-08": {
-          "tmax": 27.1,
-          "precip": 1.9
+          "tmax": 28.4,
+          "precip": 21.6
+        },
+        "09-09": {
+          "tmax": 23.8,
+          "precip": 12.0
         }
       }
     },
@@ -237,65 +237,65 @@
       "population": 9386700,
       "population_weight": 1.1830732065959457,
       "weather": {
-        "08-25": {
-          "tmax": 32.9,
-          "precip": 0.0
-        },
         "08-26": {
-          "tmax": 33.5,
-          "precip": 0.0
+          "tmax": 33.7,
+          "precip": 0.1
         },
         "08-27": {
-          "tmax": 30.5,
-          "precip": 1.1
+          "tmax": 28.4,
+          "precip": 18.0
         },
         "08-28": {
-          "tmax": 31.0,
-          "precip": 22.6
+          "tmax": 24.3,
+          "precip": 8.6
         },
         "08-29": {
-          "tmax": 28.0,
-          "precip": 0.3
+          "tmax": 26.2,
+          "precip": 11.9
         },
         "08-30": {
-          "tmax": 29.9,
-          "precip": 0.0
-        },
-        "08-31": {
-          "tmax": 30.2,
-          "precip": 0.0
-        },
-        "09-01": {
           "tmax": 27.3,
           "precip": 0.0
         },
+        "08-31": {
+          "tmax": 29.1,
+          "precip": 0.0
+        },
+        "09-01": {
+          "tmax": 26.3,
+          "precip": 0.6
+        },
         "09-02": {
-          "tmax": 27.5,
+          "tmax": 25.7,
           "precip": 0.0
         },
         "09-03": {
-          "tmax": 30.2,
+          "tmax": 26.8,
           "precip": 0.0
         },
         "09-04": {
-          "tmax": 30.7,
-          "precip": 0.0
+          "tmax": 28.6,
+          "precip": 0.6
         },
         "09-05": {
-          "tmax": 30.6,
-          "precip": 0.0
+          "tmax": 28.1,
+          "precip": 0.6
         },
         "09-06": {
-          "tmax": 30.5,
+          "tmax": 30.9,
           "precip": 0.0
         },
         "09-07": {
-          "tmax": 30.3,
+          "tmax": 33.9,
           "precip": 0.0
         },
         "09-08": {
-          "tmax": 24.4,
-          "precip": 3.9
+          "tmax": 26.3,
+          "precip": 17.4
+        },
+        "09-09": {
+          "tmax": 24.7,
+          "precip": 7.2
         }
       }
     },
@@ -307,65 +307,65 @@
       "population": 4704100,
       "population_weight": 0.592891502993383,
       "weather": {
-        "08-25": {
-          "tmax": 35.5,
-          "precip": 0.8
-        },
         "08-26": {
-          "tmax": 35.4,
-          "precip": 0.0
+          "tmax": 37.1,
+          "precip": 0.7
         },
         "08-27": {
-          "tmax": 30.0,
-          "precip": 1.8
+          "tmax": 28.1,
+          "precip": 16.8
         },
         "08-28": {
-          "tmax": 29.1,
-          "precip": 18.6
+          "tmax": 24.9,
+          "precip": 3.8
         },
         "08-29": {
-          "tmax": 28.9,
-          "precip": 0.3
+          "tmax": 27.7,
+          "precip": 11.3
         },
         "08-30": {
-          "tmax": 32.0,
+          "tmax": 28.5,
           "precip": 0.0
         },
         "08-31": {
-          "tmax": 31.3,
+          "tmax": 30.7,
           "precip": 0.0
         },
         "09-01": {
-          "tmax": 28.7,
-          "precip": 0.0
+          "tmax": 27.5,
+          "precip": 0.6
         },
         "09-02": {
-          "tmax": 30.1,
+          "tmax": 27.7,
           "precip": 0.0
         },
         "09-03": {
-          "tmax": 32.0,
+          "tmax": 28.2,
           "precip": 0.0
         },
         "09-04": {
-          "tmax": 32.6,
-          "precip": 0.6
+          "tmax": 28.7,
+          "precip": 3.0
         },
         "09-05": {
-          "tmax": 32.9,
+          "tmax": 28.3,
           "precip": 0.0
         },
         "09-06": {
-          "tmax": 32.4,
+          "tmax": 33.4,
           "precip": 0.0
         },
         "09-07": {
-          "tmax": 32.8,
+          "tmax": 34.7,
           "precip": 0.0
         },
         "09-08": {
-          "tmax": 26.4,
-          "precip": 6.9
+          "tmax": 28.6,
+          "precip": 18.6
+        },
+        "09-09": {
+          "tmax": 25.2,
+          "precip": 3.0
         }
       }
     },
@@ -377,65 +377,65 @@
       "population": 11018400,
       "population_weight": 1.3887280747820607,
       "weather": {
-        "08-25": {
-          "tmax": 31.6,
-          "precip": 0.0
-        },
         "08-26": {
-          "tmax": 31.6,
+          "tmax": 31.8,
           "precip": 0.2
         },
         "08-27": {
-          "tmax": 32.2,
-          "precip": 0.0
+          "tmax": 32.3,
+          "precip": 3.1
         },
         "08-28": {
-          "tmax": 32.6,
-          "precip": 0.4
+          "tmax": 32.0,
+          "precip": 0.0
         },
         "08-29": {
-          "tmax": 32.1,
-          "precip": 6.3
+          "tmax": 32.4,
+          "precip": 5.2
         },
         "08-30": {
-          "tmax": 27.0,
-          "precip": 6.0
+          "tmax": 28.4,
+          "precip": 0.1
         },
         "08-31": {
-          "tmax": 29.7,
+          "tmax": 30.1,
           "precip": 0.0
         },
         "09-01": {
-          "tmax": 29.5,
+          "tmax": 28.9,
           "precip": 0.0
         },
         "09-02": {
-          "tmax": 29.2,
+          "tmax": 28.4,
           "precip": 0.0
         },
         "09-03": {
-          "tmax": 30.3,
+          "tmax": 29.1,
           "precip": 0.0
         },
         "09-04": {
-          "tmax": 31.2,
-          "precip": 0.0
+          "tmax": 30.3,
+          "precip": 0.6
         },
         "09-05": {
-          "tmax": 31.0,
+          "tmax": 29.4,
           "precip": 0.0
         },
         "09-06": {
-          "tmax": 29.2,
-          "precip": 0.6
+          "tmax": 31.3,
+          "precip": 0.0
         },
         "09-07": {
-          "tmax": 29.2,
+          "tmax": 31.5,
           "precip": 0.0
         },
         "09-08": {
-          "tmax": 26.7,
-          "precip": 0.0
+          "tmax": 32.2,
+          "precip": 0.9
+        },
+        "09-09": {
+          "tmax": 26.6,
+          "precip": 0.9
         }
       }
     },
@@ -447,65 +447,65 @@
       "population": 8357900,
       "population_weight": 1.0534061548156706,
       "weather": {
-        "08-25": {
-          "tmax": 32.9,
-          "precip": 0.0
-        },
         "08-26": {
-          "tmax": 33.0,
-          "precip": 0.0
+          "tmax": 33.6,
+          "precip": 0.1
         },
         "08-27": {
-          "tmax": 33.0,
-          "precip": 2.1
+          "tmax": 32.3,
+          "precip": 1.9
         },
         "08-28": {
-          "tmax": 31.1,
-          "precip": 0.3
+          "tmax": 30.6,
+          "precip": 0.0
         },
         "08-29": {
-          "tmax": 30.7,
+          "tmax": 32.0,
           "precip": 0.0
         },
         "08-30": {
-          "tmax": 31.7,
+          "tmax": 28.6,
           "precip": 0.0
         },
         "08-31": {
-          "tmax": 34.1,
+          "tmax": 33.8,
           "precip": 0.0
         },
         "09-01": {
-          "tmax": 31.0,
+          "tmax": 31.6,
           "precip": 0.0
         },
         "09-02": {
-          "tmax": 30.9,
+          "tmax": 31.3,
           "precip": 0.0
         },
         "09-03": {
-          "tmax": 31.9,
+          "tmax": 30.3,
           "precip": 0.0
         },
         "09-04": {
-          "tmax": 32.8,
+          "tmax": 31.4,
           "precip": 0.0
         },
         "09-05": {
-          "tmax": 32.8,
-          "precip": 0.0
-        },
-        "09-06": {
           "tmax": 31.9,
           "precip": 0.0
         },
+        "09-06": {
+          "tmax": 32.4,
+          "precip": 0.0
+        },
         "09-07": {
-          "tmax": 32.1,
+          "tmax": 33.6,
           "precip": 0.0
         },
         "09-08": {
-          "tmax": 25.1,
-          "precip": 3.3
+          "tmax": 27.6,
+          "precip": 4.5
+        },
+        "09-09": {
+          "tmax": 27.7,
+          "precip": 0.3
         }
       }
     },
@@ -517,65 +517,65 @@
       "population": 5611200,
       "population_weight": 0.7072198298498057,
       "weather": {
-        "08-25": {
-          "tmax": 32.9,
-          "precip": 4.4
-        },
         "08-26": {
-          "tmax": 30.6,
-          "precip": 3.8
+          "tmax": 31.1,
+          "precip": 3.9
         },
         "08-27": {
-          "tmax": 26.1,
-          "precip": 16.5
+          "tmax": 26.2,
+          "precip": 29.2
         },
         "08-28": {
-          "tmax": 24.5,
-          "precip": 7.3
+          "tmax": 23.8,
+          "precip": 13.2
         },
         "08-29": {
-          "tmax": 28.3,
-          "precip": 0.0
-        },
-        "08-30": {
-          "tmax": 31.7,
-          "precip": 0.0
-        },
-        "08-31": {
-          "tmax": 29.5,
-          "precip": 0.0
-        },
-        "09-01": {
-          "tmax": 27.5,
-          "precip": 0.0
-        },
-        "09-02": {
           "tmax": 28.1,
           "precip": 0.0
         },
+        "08-30": {
+          "tmax": 30.3,
+          "precip": 0.0
+        },
+        "08-31": {
+          "tmax": 30.7,
+          "precip": 0.6
+        },
+        "09-01": {
+          "tmax": 27.7,
+          "precip": 0.0
+        },
+        "09-02": {
+          "tmax": 27.4,
+          "precip": 0.6
+        },
         "09-03": {
-          "tmax": 30.2,
+          "tmax": 27.5,
           "precip": 0.0
         },
         "09-04": {
-          "tmax": 30.7,
+          "tmax": 27.6,
           "precip": 0.0
         },
         "09-05": {
-          "tmax": 31.6,
+          "tmax": 29.0,
           "precip": 0.0
         },
         "09-06": {
-          "tmax": 32.0,
+          "tmax": 32.8,
           "precip": 0.0
         },
         "09-07": {
-          "tmax": 31.8,
+          "tmax": 32.7,
           "precip": 0.0
         },
         "09-08": {
-          "tmax": 23.8,
-          "precip": 8.4
+          "tmax": 26.2,
+          "precip": 10.8
+        },
+        "09-09": {
+          "tmax": 26.0,
+          "precip": 0.0
         }
       }
     },
@@ -587,65 +587,65 @@
       "population": 5952500,
       "population_weight": 0.7502363197143157,
       "weather": {
-        "08-25": {
-          "tmax": 33.5,
-          "precip": 1.9
-        },
         "08-26": {
-          "tmax": 32.8,
-          "precip": 0.0
+          "tmax": 32.1,
+          "precip": 2.4
         },
         "08-27": {
-          "tmax": 28.9,
-          "precip": 0.0
+          "tmax": 29.0,
+          "precip": 1.6
         },
         "08-28": {
-          "tmax": 28.6,
-          "precip": 0.3
-        },
-        "08-29": {
-          "tmax": 29.0,
+          "tmax": 25.5,
           "precip": 0.0
         },
+        "08-29": {
+          "tmax": 29.7,
+          "precip": 0.5
+        },
         "08-30": {
-          "tmax": 34.1,
+          "tmax": 30.3,
           "precip": 0.0
         },
         "08-31": {
-          "tmax": 34.8,
+          "tmax": 33.6,
           "precip": 0.0
         },
         "09-01": {
-          "tmax": 30.6,
+          "tmax": 30.3,
           "precip": 0.0
         },
         "09-02": {
-          "tmax": 30.8,
+          "tmax": 30.0,
           "precip": 0.0
         },
         "09-03": {
-          "tmax": 32.3,
+          "tmax": 28.9,
           "precip": 0.0
         },
         "09-04": {
-          "tmax": 33.7,
+          "tmax": 30.0,
           "precip": 0.0
         },
         "09-05": {
-          "tmax": 34.5,
+          "tmax": 31.5,
           "precip": 0.0
         },
         "09-06": {
-          "tmax": 33.3,
+          "tmax": 33.4,
           "precip": 0.0
         },
         "09-07": {
-          "tmax": 32.9,
+          "tmax": 34.9,
           "precip": 0.0
         },
         "09-08": {
-          "tmax": 26.6,
-          "precip": 7.5
+          "tmax": 28.7,
+          "precip": 6.6
+        },
+        "09-09": {
+          "tmax": 27.2,
+          "precip": 0.0
         }
       }
     },
@@ -657,65 +657,65 @@
       "population": null,
       "population_weight": null,
       "weather": {
-        "08-25": {
-          "tmax": 33.3,
-          "precip": 4.4
-        },
         "08-26": {
-          "tmax": 33.4,
-          "precip": 0.0
+          "tmax": 35.1,
+          "precip": 0.2
         },
         "08-27": {
-          "tmax": 30.0,
-          "precip": 0.4
+          "tmax": 28.1,
+          "precip": 4.3
         },
         "08-28": {
-          "tmax": 30.5,
-          "precip": 0.6
+          "tmax": 25.9,
+          "precip": 0.8
         },
         "08-29": {
-          "tmax": 28.7,
-          "precip": 0.0
+          "tmax": 29.2,
+          "precip": 2.8
         },
         "08-30": {
-          "tmax": 33.8,
+          "tmax": 30.3,
           "precip": 0.0
         },
         "08-31": {
-          "tmax": 31.9,
+          "tmax": 32.7,
           "precip": 0.0
         },
         "09-01": {
-          "tmax": 29.1,
-          "precip": 0.6
+          "tmax": 28.9,
+          "precip": 1.2
         },
         "09-02": {
-          "tmax": 30.0,
+          "tmax": 29.7,
           "precip": 0.0
         },
         "09-03": {
-          "tmax": 32.8,
+          "tmax": 28.7,
           "precip": 0.0
         },
         "09-04": {
-          "tmax": 33.3,
-          "precip": 0.0
+          "tmax": 30.2,
+          "precip": 0.6
         },
         "09-05": {
-          "tmax": 33.8,
+          "tmax": 31.3,
           "precip": 0.0
         },
         "09-06": {
-          "tmax": 33.4,
+          "tmax": 34.1,
           "precip": 0.0
         },
         "09-07": {
-          "tmax": 33.3,
+          "tmax": 34.7,
           "precip": 0.0
         },
         "09-08": {
-          "tmax": 27.9,
-          "precip": 9.2
+          "tmax": 30.2,
+          "precip": 13.8
+        },
+        "09-09": {
+          "tmax": 25.4,
+          "precip": 1.2
         }
       }
     },
@@ -727,65 +727,65 @@
       "population": null,
       "population_weight": null,
       "weather": {
-        "08-25": {
-          "tmax": 32.4,
-          "precip": 0.4
-        },
         "08-26": {
-          "tmax": 32.6,
-          "precip": 0.0
+          "tmax": 32.9,
+          "precip": 0.2
         },
         "08-27": {
-          "tmax": 29.5,
-          "precip": 1.7
+          "tmax": 29.2,
+          "precip": 0.1
         },
         "08-28": {
-          "tmax": 29.8,
+          "tmax": 28.5,
           "precip": 0.0
         },
         "08-29": {
-          "tmax": 28.3,
+          "tmax": 29.3,
           "precip": 0.0
         },
         "08-30": {
-          "tmax": 30.5,
+          "tmax": 27.4,
           "precip": 0.0
         },
         "08-31": {
-          "tmax": 32.4,
+          "tmax": 31.9,
           "precip": 0.0
         },
         "09-01": {
-          "tmax": 29.7,
+          "tmax": 30.4,
           "precip": 0.0
         },
         "09-02": {
-          "tmax": 29.1,
+          "tmax": 29.6,
           "precip": 0.0
         },
         "09-03": {
-          "tmax": 30.1,
+          "tmax": 28.4,
           "precip": 0.0
         },
         "09-04": {
-          "tmax": 30.8,
+          "tmax": 28.6,
           "precip": 0.0
         },
         "09-05": {
-          "tmax": 31.7,
+          "tmax": 30.6,
           "precip": 0.0
         },
         "09-06": {
-          "tmax": 31.3,
+          "tmax": 31.4,
           "precip": 0.0
         },
         "09-07": {
-          "tmax": 31.0,
+          "tmax": 33.1,
           "precip": 0.0
         },
         "09-08": {
-          "tmax": 26.0,
-          "precip": 4.3
+          "tmax": 26.9,
+          "precip": 2.4
+        },
+        "09-09": {
+          "tmax": 27.4,
+          "precip": 0.0
         }
       }
     },
@@ -796,68 +796,7 @@
       "lat": 36.75,
       "population": null,
       "population_weight": null,
-      "weather": {
-        "08-25": {
-          "tmax": 33.3,
-          "precip": 0.0
-        },
-        "08-26": {
-          "tmax": 33.8,
-          "precip": 0.0
-        },
-        "08-27": {
-          "tmax": 30.6,
-          "precip": 1.2
-        },
-        "08-28": {
-          "tmax": 31.2,
-          "precip": 34.1
-        },
-        "08-29": {
-          "tmax": 28.1,
-          "precip": 1.2
-        },
-        "08-30": {
-          "tmax": 30.2,
-          "precip": 0.0
-        },
-        "08-31": {
-          "tmax": 30.5,
-          "precip": 0.0
-        },
-        "09-01": {
-          "tmax": 27.3,
-          "precip": 0.0
-        },
-        "09-02": {
-          "tmax": 27.7,
-          "precip": 0.0
-        },
-        "09-03": {
-          "tmax": 30.9,
-          "precip": 0.0
-        },
-        "09-04": {
-          "tmax": 31.3,
-          "precip": 0.0
-        },
-        "09-05": {
-          "tmax": 31.5,
-          "precip": 0.0
-        },
-        "09-06": {
-          "tmax": 31.2,
-          "precip": 0.0
-        },
-        "09-07": {
-          "tmax": 31.4,
-          "precip": 0.0
-        },
-        "09-08": {
-          "tmax": 24.8,
-          "precip": 5.2
-        }
-      }
+      "weather": {}
     },
     "yinan": {
       "name": "沂南站",
@@ -893,7 +832,68 @@
       "lat": 36.85,
       "population": null,
       "population_weight": null,
-      "weather": {}
+      "weather": {
+        "08-26": {
+          "tmax": 31.2,
+          "precip": 4.6
+        },
+        "08-27": {
+          "tmax": 26.8,
+          "precip": 11.2
+        },
+        "08-28": {
+          "tmax": 24.3,
+          "precip": 2.8
+        },
+        "08-29": {
+          "tmax": 28.6,
+          "precip": 0.1
+        },
+        "08-30": {
+          "tmax": 30.9,
+          "precip": 0.0
+        },
+        "08-31": {
+          "tmax": 32.3,
+          "precip": 0.0
+        },
+        "09-01": {
+          "tmax": 28.4,
+          "precip": 0.0
+        },
+        "09-02": {
+          "tmax": 28.1,
+          "precip": 0.6
+        },
+        "09-03": {
+          "tmax": 28.3,
+          "precip": 0.0
+        },
+        "09-04": {
+          "tmax": 28.1,
+          "precip": 0.0
+        },
+        "09-05": {
+          "tmax": 29.7,
+          "precip": 0.0
+        },
+        "09-06": {
+          "tmax": 34.2,
+          "precip": 0.0
+        },
+        "09-07": {
+          "tmax": 35.3,
+          "precip": 0.0
+        },
+        "09-08": {
+          "tmax": 26.6,
+          "precip": 13.2
+        },
+        "09-09": {
+          "tmax": 26.3,
+          "precip": 0.0
+        }
+      }
     },
     "north_renewable": {
       "name": "北部风光",
@@ -903,100 +903,92 @@
       "population": null,
       "population_weight": null,
       "weather": {
-        "08-25": {
-          "tmax": 32.6,
-          "precip": 5.9
-        },
         "08-26": {
-          "tmax": 30.4,
-          "precip": 12.1
+          "tmax": 28.8,
+          "precip": 12.4
         },
         "08-27": {
-          "tmax": 25.9,
-          "precip": 35.0
+          "tmax": 25.0,
+          "precip": 34.5
         },
         "08-28": {
-          "tmax": 24.7,
-          "precip": 6.5
+          "tmax": 24.4,
+          "precip": 15.6
         },
         "08-29": {
-          "tmax": 27.1,
+          "tmax": 28.0,
           "precip": 0.0
         },
         "08-30": {
-          "tmax": 29.4,
-          "precip": 0.0
-        },
-        "08-31": {
-          "tmax": 26.7,
-          "precip": 1.5
-        },
-        "09-01": {
-          "tmax": 25.0,
-          "precip": 0.3
-        },
-        "09-02": {
-          "tmax": 26.1,
-          "precip": 0.0
-        },
-        "09-03": {
-          "tmax": 28.5,
-          "precip": 0.0
-        },
-        "09-04": {
-          "tmax": 28.2,
-          "precip": 0.0
-        },
-        "09-05": {
           "tmax": 28.8,
           "precip": 0.0
         },
+        "08-31": {
+          "tmax": 28.6,
+          "precip": 0.0
+        },
+        "09-01": {
+          "tmax": 25.5,
+          "precip": 0.9
+        },
+        "09-02": {
+          "tmax": 25.8,
+          "precip": 0.0
+        },
+        "09-03": {
+          "tmax": 25.8,
+          "precip": 0.0
+        },
+        "09-04": {
+          "tmax": 26.9,
+          "precip": 0.0
+        },
+        "09-05": {
+          "tmax": 26.5,
+          "precip": 0.6
+        },
         "09-06": {
-          "tmax": 29.8,
+          "tmax": 29.5,
           "precip": 0.0
         },
         "09-07": {
-          "tmax": 29.7,
+          "tmax": 31.0,
           "precip": 0.0
         },
         "09-08": {
-          "tmax": 23.6,
-          "precip": 0.0
+          "tmax": 25.6,
+          "precip": 33.9
+        },
+        "09-09": {
+          "tmax": 24.6,
+          "precip": 0.3
         }
       }
     }
   },
   "price_series": [
     {
-      "date": "08-25",
-      "score": 380.0,
-      "risk": "high",
-      "demand_count": 3,
-      "supply_count": 1,
-      "affected_pop": 1985.9
-    },
-    {
       "date": "08-26",
-      "score": 384.4,
+      "score": 400.8,
       "risk": "high",
-      "demand_count": 3,
+      "demand_count": 4,
       "supply_count": 1,
-      "affected_pop": 2329.32
+      "affected_pop": 3165.11
     },
     {
       "date": "08-27",
-      "score": 365.0,
-      "risk": "low",
-      "demand_count": 0,
-      "supply_count": 1,
-      "affected_pop": 0.0
-    },
-    {
-      "date": "08-28",
       "score": 370.0,
       "risk": "low",
       "demand_count": 0,
       "supply_count": 2,
+      "affected_pop": 0.0
+    },
+    {
+      "date": "08-28",
+      "score": 355.0,
+      "risk": "low",
+      "demand_count": 0,
+      "supply_count": 1,
       "affected_pop": 0.0
     },
     {
@@ -1009,11 +1001,11 @@
     },
     {
       "date": "08-30",
-      "score": 369.1,
-      "risk": "medium",
-      "demand_count": 2,
+      "score": 350.0,
+      "risk": "none",
+      "demand_count": 0,
       "supply_count": 0,
-      "affected_pop": 1515.49
+      "affected_pop": 0.0
     },
     {
       "date": "08-31",
@@ -1049,67 +1041,64 @@
     },
     {
       "date": "09-04",
-      "score": 369.1,
-      "risk": "medium",
-      "demand_count": 2,
+      "score": 350.0,
+      "risk": "none",
+      "demand_count": 0,
       "supply_count": 0,
-      "affected_pop": 1515.49
+      "affected_pop": 0.0
     },
     {
       "date": "09-05",
-      "score": 369.1,
-      "risk": "medium",
-      "demand_count": 2,
+      "score": 350.0,
+      "risk": "none",
+      "demand_count": 0,
       "supply_count": 0,
-      "affected_pop": 1515.49
+      "affected_pop": 0.0
     },
     {
       "date": "09-06",
-      "score": 369.1,
+      "score": 375.0,
       "risk": "medium",
-      "demand_count": 2,
+      "demand_count": 3,
       "supply_count": 0,
-      "affected_pop": 1515.49
+      "affected_pop": 1985.9
     },
     {
       "date": "09-07",
-      "score": 361.6,
+      "score": 397.4,
       "risk": "medium",
-      "demand_count": 1,
+      "demand_count": 5,
       "supply_count": 0,
-      "affected_pop": 920.24
+      "affected_pop": 3760.36
     },
     {
       "date": "09-08",
-      "score": 360.0,
+      "score": 375.0,
       "risk": "low",
       "demand_count": 0,
-      "supply_count": 2,
+      "supply_count": 3,
+      "affected_pop": 0.0
+    },
+    {
+      "date": "09-09",
+      "score": 350.0,
+      "risk": "none",
+      "demand_count": 0,
+      "supply_count": 0,
       "affected_pop": 0.0
     }
   ],
   "cross_sections": [
-    {
-      "date": "08-25",
-      "id": "central_load",
-      "name": "鲁中受端断面",
-      "type": "demand",
-      "capacity_mw": 30000,
-      "load_mw": 19980.0,
-      "utilization": 0.666,
-      "risk": "low",
-      "message": "鲁中受端断面 08-25 负载 19980/30000 MW （利用率 66.6%）"
-    },
     {
       "date": "08-26",
       "id": "central_load",
       "name": "鲁中受端断面",
       "type": "demand",
       "capacity_mw": 30000,
-      "load_mw": 19980.0,
-      "utilization": 0.666,
-      "risk": "low",
-      "message": "鲁中受端断面 08-26 负载 19980/30000 MW （利用率 66.6%）"
+      "load_mw": 21900.0,
+      "utilization": 0.73,
+      "risk": "medium",
+      "message": "鲁中受端断面 08-26 负载 21900/30000 MW （利用率 73.0%）"
     },
     {
       "date": "08-27",
@@ -1150,10 +1139,10 @@
       "name": "鲁中受端断面",
       "type": "demand",
       "capacity_mw": 30000,
-      "load_mw": 18480.0,
-      "utilization": 0.616,
+      "load_mw": 18000.0,
+      "utilization": 0.6,
       "risk": "low",
-      "message": "鲁中受端断面 08-30 负载 18480/30000 MW （利用率 61.6%）"
+      "message": "鲁中受端断面 08-30 负载 18000/30000 MW （利用率 60.0%）"
     },
     {
       "date": "08-31",
@@ -1205,10 +1194,10 @@
       "name": "鲁中受端断面",
       "type": "demand",
       "capacity_mw": 30000,
-      "load_mw": 18300.0,
-      "utilization": 0.61,
+      "load_mw": 18000.0,
+      "utilization": 0.6,
       "risk": "low",
-      "message": "鲁中受端断面 09-04 负载 18300/30000 MW （利用率 61.0%）"
+      "message": "鲁中受端断面 09-04 负载 18000/30000 MW （利用率 60.0%）"
     },
     {
       "date": "09-05",
@@ -1216,10 +1205,10 @@
       "name": "鲁中受端断面",
       "type": "demand",
       "capacity_mw": 30000,
-      "load_mw": 18360.0,
-      "utilization": 0.612,
+      "load_mw": 18000.0,
+      "utilization": 0.6,
       "risk": "low",
-      "message": "鲁中受端断面 09-05 负载 18360/30000 MW （利用率 61.2%）"
+      "message": "鲁中受端断面 09-05 负载 18000/30000 MW （利用率 60.0%）"
     },
     {
       "date": "09-06",
@@ -1227,10 +1216,10 @@
       "name": "鲁中受端断面",
       "type": "demand",
       "capacity_mw": 30000,
-      "load_mw": 18120.0,
-      "utilization": 0.604,
+      "load_mw": 18720.0,
+      "utilization": 0.624,
       "risk": "low",
-      "message": "鲁中受端断面 09-06 负载 18120/30000 MW （利用率 60.4%）"
+      "message": "鲁中受端断面 09-06 负载 18720/30000 MW （利用率 62.4%）"
     },
     {
       "date": "09-07",
@@ -1238,10 +1227,10 @@
       "name": "鲁中受端断面",
       "type": "demand",
       "capacity_mw": 30000,
-      "load_mw": 18180.0,
-      "utilization": 0.606,
+      "load_mw": 20340.0,
+      "utilization": 0.678,
       "risk": "low",
-      "message": "鲁中受端断面 09-07 负载 18180/30000 MW （利用率 60.6%）"
+      "message": "鲁中受端断面 09-07 负载 20340/30000 MW （利用率 67.8%）"
     },
     {
       "date": "09-08",
@@ -1255,15 +1244,15 @@
       "message": "鲁中受端断面 09-08 负载 18000/30000 MW （利用率 60.0%）"
     },
     {
-      "date": "08-25",
-      "id": "jiaodong_load",
-      "name": "胶东受端断面",
+      "date": "09-09",
+      "id": "central_load",
+      "name": "鲁中受端断面",
       "type": "demand",
-      "capacity_mw": 25000,
-      "load_mw": 15000.0,
+      "capacity_mw": 30000,
+      "load_mw": 18000.0,
       "utilization": 0.6,
       "risk": "low",
-      "message": "胶东受端断面 08-25 负载 15000/25000 MW （利用率 60.0%）"
+      "message": "鲁中受端断面 09-09 负载 18000/30000 MW （利用率 60.0%）"
     },
     {
       "date": "08-26",
@@ -1271,10 +1260,10 @@
       "name": "胶东受端断面",
       "type": "demand",
       "capacity_mw": 25000,
-      "load_mw": 15250.0,
-      "utilization": 0.61,
+      "load_mw": 15350.0,
+      "utilization": 0.614,
       "risk": "low",
-      "message": "胶东受端断面 08-26 负载 15250/25000 MW （利用率 61.0%）"
+      "message": "胶东受端断面 08-26 负载 15350/25000 MW （利用率 61.4%）"
     },
     {
       "date": "08-27",
@@ -1403,10 +1392,10 @@
       "name": "胶东受端断面",
       "type": "demand",
       "capacity_mw": 25000,
-      "load_mw": 15000.0,
-      "utilization": 0.6,
+      "load_mw": 15450.0,
+      "utilization": 0.618,
       "risk": "low",
-      "message": "胶东受端断面 09-07 负载 15000/25000 MW （利用率 60.0%）"
+      "message": "胶东受端断面 09-07 负载 15450/25000 MW （利用率 61.8%）"
     },
     {
       "date": "09-08",
@@ -1420,15 +1409,15 @@
       "message": "胶东受端断面 09-08 负载 15000/25000 MW （利用率 60.0%）"
     },
     {
-      "date": "08-25",
-      "id": "lunan_load",
-      "name": "鲁南受端断面",
+      "date": "09-09",
+      "id": "jiaodong_load",
+      "name": "胶东受端断面",
       "type": "demand",
-      "capacity_mw": 20000,
-      "load_mw": 12000.0,
+      "capacity_mw": 25000,
+      "load_mw": 15000.0,
       "utilization": 0.6,
       "risk": "low",
-      "message": "鲁南受端断面 08-25 负载 12000/20000 MW （利用率 60.0%）"
+      "message": "胶东受端断面 09-09 负载 15000/25000 MW （利用率 60.0%）"
     },
     {
       "date": "08-26",
@@ -1436,10 +1425,10 @@
       "name": "鲁南受端断面",
       "type": "demand",
       "capacity_mw": 20000,
-      "load_mw": 12200.0,
-      "utilization": 0.61,
+      "load_mw": 12520.0,
+      "utilization": 0.626,
       "risk": "low",
-      "message": "鲁南受端断面 08-26 负载 12200/20000 MW （利用率 61.0%）"
+      "message": "鲁南受端断面 08-26 负载 12520/20000 MW （利用率 62.6%）"
     },
     {
       "date": "08-27",
@@ -1491,10 +1480,10 @@
       "name": "鲁南受端断面",
       "type": "demand",
       "capacity_mw": 20000,
-      "load_mw": 12440.0,
-      "utilization": 0.622,
+      "load_mw": 12320.0,
+      "utilization": 0.616,
       "risk": "low",
-      "message": "鲁南受端断面 08-31 负载 12440/20000 MW （利用率 62.2%）"
+      "message": "鲁南受端断面 08-31 负载 12320/20000 MW （利用率 61.6%）"
     },
     {
       "date": "09-01",
@@ -1568,10 +1557,10 @@
       "name": "鲁南受端断面",
       "type": "demand",
       "capacity_mw": 20000,
-      "load_mw": 12000.0,
-      "utilization": 0.6,
+      "load_mw": 12600.0,
+      "utilization": 0.63,
       "risk": "low",
-      "message": "鲁南受端断面 09-07 负载 12000/20000 MW （利用率 60.0%）"
+      "message": "鲁南受端断面 09-07 负载 12600/20000 MW （利用率 63.0%）"
     },
     {
       "date": "09-08",
@@ -1585,15 +1574,15 @@
       "message": "鲁南受端断面 09-08 负载 12000/20000 MW （利用率 60.0%）"
     },
     {
-      "date": "08-25",
-      "id": "external_inflow",
-      "name": "外电入鲁断面",
-      "type": "supply",
-      "capacity_mw": 35000,
-      "load_mw": 17500.0,
-      "utilization": 0.5,
+      "date": "09-09",
+      "id": "lunan_load",
+      "name": "鲁南受端断面",
+      "type": "demand",
+      "capacity_mw": 20000,
+      "load_mw": 12000.0,
+      "utilization": 0.6,
       "risk": "low",
-      "message": "外电入鲁断面 08-25 负载 17500/35000 MW （利用率 50.0%）"
+      "message": "鲁南受端断面 09-09 负载 12000/20000 MW （利用率 60.0%）"
     },
     {
       "date": "08-26",
@@ -1623,10 +1612,10 @@
       "name": "外电入鲁断面",
       "type": "supply",
       "capacity_mw": 35000,
-      "load_mw": 19950.0,
-      "utilization": 0.57,
+      "load_mw": 17500.0,
+      "utilization": 0.5,
       "risk": "low",
-      "message": "外电入鲁断面 08-28 负载 19950/35000 MW （利用率 57.0%）"
+      "message": "外电入鲁断面 08-28 负载 17500/35000 MW （利用率 50.0%）"
     },
     {
       "date": "08-29",
@@ -1744,21 +1733,21 @@
       "name": "外电入鲁断面",
       "type": "supply",
       "capacity_mw": 35000,
-      "load_mw": 19264.0,
-      "utilization": 0.55,
+      "load_mw": 19190.0,
+      "utilization": 0.548,
       "risk": "low",
-      "message": "外电入鲁断面 09-08 负载 19264/35000 MW （利用率 55.0%）"
+      "message": "外电入鲁断面 09-08 负载 19190/35000 MW （利用率 54.8%）"
     },
     {
-      "date": "08-25",
-      "id": "west_renewable",
-      "name": "西部风光送出断面",
-      "type": "renewable",
-      "capacity_mw": 15000,
-      "load_mw": 6000.0,
-      "utilization": 0.4,
+      "date": "09-09",
+      "id": "external_inflow",
+      "name": "外电入鲁断面",
+      "type": "supply",
+      "capacity_mw": 35000,
+      "load_mw": 17500.0,
+      "utilization": 0.5,
       "risk": "low",
-      "message": "西部风光送出断面 08-25 负载 6000/15000 MW （利用率 40.0%）"
+      "message": "外电入鲁断面 09-09 负载 17500/35000 MW （利用率 50.0%）"
     },
     {
       "date": "08-26",
@@ -1777,10 +1766,10 @@
       "name": "西部风光送出断面",
       "type": "renewable",
       "capacity_mw": 15000,
-      "load_mw": 6000.0,
-      "utilization": 0.4,
+      "load_mw": 6588.0,
+      "utilization": 0.439,
       "risk": "low",
-      "message": "西部风光送出断面 08-27 负载 6000/15000 MW （利用率 40.0%）"
+      "message": "西部风光送出断面 08-27 负载 6588/15000 MW （利用率 43.9%）"
     },
     {
       "date": "08-28",
@@ -1909,21 +1898,21 @@
       "name": "西部风光送出断面",
       "type": "renewable",
       "capacity_mw": 15000,
+      "load_mw": 6693.0,
+      "utilization": 0.446,
+      "risk": "low",
+      "message": "西部风光送出断面 09-08 负载 6693/15000 MW （利用率 44.6%）"
+    },
+    {
+      "date": "09-09",
+      "id": "west_renewable",
+      "name": "西部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 15000,
       "load_mw": 6000.0,
       "utilization": 0.4,
       "risk": "low",
-      "message": "西部风光送出断面 09-08 负载 6000/15000 MW （利用率 40.0%）"
-    },
-    {
-      "date": "08-25",
-      "id": "north_renewable",
-      "name": "北部风光送出断面",
-      "type": "renewable",
-      "capacity_mw": 12000,
-      "load_mw": 5048.0,
-      "utilization": 0.421,
-      "risk": "low",
-      "message": "北部风光送出断面 08-25 负载 5048/12000 MW （利用率 42.1%）"
+      "message": "西部风光送出断面 09-09 负载 6000/15000 MW （利用率 40.0%）"
     },
     {
       "date": "08-26",
@@ -1931,10 +1920,10 @@
       "name": "北部风光送出断面",
       "type": "renewable",
       "capacity_mw": 12000,
-      "load_mw": 5308.0,
-      "utilization": 0.442,
+      "load_mw": 5321.0,
+      "utilization": 0.443,
       "risk": "low",
-      "message": "北部风光送出断面 08-26 负载 5308/12000 MW （利用率 44.2%）"
+      "message": "北部风光送出断面 08-26 负载 5321/12000 MW （利用率 44.3%）"
     },
     {
       "date": "08-27",
@@ -1953,10 +1942,10 @@
       "name": "北部风光送出断面",
       "type": "renewable",
       "capacity_mw": 12000,
-      "load_mw": 5073.0,
-      "utilization": 0.423,
+      "load_mw": 5455.0,
+      "utilization": 0.455,
       "risk": "low",
-      "message": "北部风光送出断面 08-28 负载 5073/12000 MW （利用率 42.3%）"
+      "message": "北部风光送出断面 08-28 负载 5455/12000 MW （利用率 45.5%）"
     },
     {
       "date": "08-29",
@@ -2074,10 +2063,21 @@
       "name": "北部风光送出断面",
       "type": "renewable",
       "capacity_mw": 12000,
+      "load_mw": 5640.0,
+      "utilization": 0.47,
+      "risk": "low",
+      "message": "北部风光送出断面 09-08 负载 5640/12000 MW （利用率 47.0%）"
+    },
+    {
+      "date": "09-09",
+      "id": "north_renewable",
+      "name": "北部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 12000,
       "load_mw": 4800.0,
       "utilization": 0.4,
       "risk": "low",
-      "message": "北部风光送出断面 09-08 负载 4800/12000 MW （利用率 40.0%）"
+      "message": "北部风光送出断面 09-09 负载 4800/12000 MW （利用率 40.0%）"
     }
   ]
 }
