@@ -1,8 +1,7 @@
 {
-  "generated_at": "2026-09-29T12:08:49.775347+00:00",
+  "generated_at": "2026-09-30T11:58:18.955538+00:00",
   "base_price": 350.0,
   "dates": [
-    "09-29",
     "09-30",
     "10-01",
     "10-02",
@@ -16,7 +15,8 @@
     "10-10",
     "10-11",
     "10-12",
-    "10-13"
+    "10-13",
+    "10-14"
   ],
   "nodes": {
     "jinan": {
@@ -27,65 +27,65 @@
       "population": 9202400,
       "population_weight": 1.1598445541434723,
       "weather": {
-        "09-29": {
-          "tmax": 28.5,
-          "precip": 0.0
-        },
         "09-30": {
-          "tmax": 21.9,
-          "precip": 1.2
+          "tmax": 23.2,
+          "precip": 1.6
         },
         "10-01": {
-          "tmax": 22.4,
+          "tmax": 22.7,
           "precip": 0.0
         },
         "10-02": {
-          "tmax": 25.0,
+          "tmax": 25.2,
           "precip": 0.0
         },
         "10-03": {
-          "tmax": 22.9,
-          "precip": 0.0
+          "tmax": 22.8,
+          "precip": 0.5
         },
         "10-04": {
-          "tmax": 20.2,
-          "precip": 2.1
+          "tmax": 20.3,
+          "precip": 0.2
         },
         "10-05": {
-          "tmax": 23.0,
+          "tmax": 22.4,
           "precip": 0.0
         },
         "10-06": {
-          "tmax": 26.5,
+          "tmax": 26.8,
           "precip": 0.0
         },
         "10-07": {
-          "tmax": 25.4,
+          "tmax": 27.2,
           "precip": 0.0
         },
         "10-08": {
-          "tmax": 26.7,
-          "precip": 0.0
-        },
-        "10-09": {
           "tmax": 27.5,
           "precip": 0.0
         },
+        "10-09": {
+          "tmax": 27.7,
+          "precip": 0.0
+        },
         "10-10": {
-          "tmax": 21.3,
+          "tmax": 23.2,
           "precip": 0.6
         },
         "10-11": {
-          "tmax": 23.6,
+          "tmax": 22.4,
           "precip": 0.0
         },
         "10-12": {
-          "tmax": 22.5,
-          "precip": 1.8
+          "tmax": 24.8,
+          "precip": 0.0
         },
         "10-13": {
-          "tmax": 21.9,
-          "precip": 1.8
+          "tmax": 23.1,
+          "precip": 0.0
+        },
+        "10-14": {
+          "tmax": 24.5,
+          "precip": 0.0
         }
       }
     },
@@ -97,24 +97,20 @@
       "population": 10071700,
       "population_weight": 1.26940867555929,
       "weather": {
-        "09-29": {
-          "tmax": 24.8,
-          "precip": 0.0
-        },
         "09-30": {
-          "tmax": 25.9,
-          "precip": 0.6
+          "tmax": 26.4,
+          "precip": 1.2
         },
         "10-01": {
-          "tmax": 23.1,
+          "tmax": 23.5,
           "precip": 0.0
         },
         "10-02": {
-          "tmax": 21.9,
+          "tmax": 22.1,
           "precip": 0.0
         },
         "10-03": {
-          "tmax": 22.7,
+          "tmax": 22.5,
           "precip": 0.3
         },
         "10-04": {
@@ -122,40 +118,44 @@
           "precip": 0.0
         },
         "10-05": {
-          "tmax": 20.7,
+          "tmax": 20.8,
           "precip": 0.0
         },
         "10-06": {
-          "tmax": 22.6,
+          "tmax": 23.8,
           "precip": 0.0
         },
         "10-07": {
-          "tmax": 23.9,
-          "precip": 0.6
-        },
-        "10-08": {
           "tmax": 24.2,
           "precip": 0.0
         },
+        "10-08": {
+          "tmax": 23.9,
+          "precip": 0.0
+        },
         "10-09": {
-          "tmax": 24.1,
+          "tmax": 25.1,
           "precip": 0.0
         },
         "10-10": {
-          "tmax": 22.1,
+          "tmax": 23.7,
           "precip": 0.0
         },
         "10-11": {
-          "tmax": 22.5,
+          "tmax": 23.9,
           "precip": 0.0
         },
         "10-12": {
-          "tmax": 21.2,
-          "precip": 0.3
+          "tmax": 22.2,
+          "precip": 0.0
         },
         "10-13": {
-          "tmax": 24.4,
-          "precip": 1.5
+          "tmax": 22.5,
+          "precip": 0.0
+        },
+        "10-14": {
+          "tmax": 21.4,
+          "precip": 0.0
         }
       }
     },
@@ -167,65 +167,65 @@
       "population": 7102600,
       "population_weight": 0.8951916815460561,
       "weather": {
-        "09-29": {
-          "tmax": 29.3,
-          "precip": 0.0
-        },
         "09-30": {
-          "tmax": 24.6,
-          "precip": 0.7
+          "tmax": 25.4,
+          "precip": 1.3
         },
         "10-01": {
-          "tmax": 21.8,
+          "tmax": 21.9,
           "precip": 0.0
         },
         "10-02": {
-          "tmax": 22.5,
+          "tmax": 22.4,
           "precip": 0.0
         },
         "10-03": {
-          "tmax": 24.4,
+          "tmax": 23.8,
           "precip": 0.0
         },
         "10-04": {
-          "tmax": 22.8,
-          "precip": 3.0
+          "tmax": 23.0,
+          "precip": 9.1
         },
         "10-05": {
-          "tmax": 19.6,
-          "precip": 0.3
+          "tmax": 19.5,
+          "precip": 0.0
         },
         "10-06": {
-          "tmax": 23.9,
+          "tmax": 23.3,
           "precip": 0.0
         },
         "10-07": {
-          "tmax": 21.7,
+          "tmax": 22.2,
           "precip": 0.0
         },
         "10-08": {
-          "tmax": 22.1,
+          "tmax": 27.0,
           "precip": 0.0
         },
         "10-09": {
-          "tmax": 23.5,
+          "tmax": 21.8,
           "precip": 0.0
         },
         "10-10": {
-          "tmax": 20.4,
+          "tmax": 18.4,
           "precip": 0.0
         },
         "10-11": {
-          "tmax": 20.8,
+          "tmax": 18.7,
           "precip": 0.0
         },
         "10-12": {
-          "tmax": 21.5,
+          "tmax": 20.4,
           "precip": 0.0
         },
         "10-13": {
-          "tmax": 23.2,
-          "precip": 1.8
+          "tmax": 19.7,
+          "precip": 0.0
+        },
+        "10-14": {
+          "tmax": 20.7,
+          "precip": 0.0
         }
       }
     },
@@ -237,65 +237,65 @@
       "population": 9386700,
       "population_weight": 1.1830732065959457,
       "weather": {
-        "09-29": {
-          "tmax": 28.2,
-          "precip": 0.0
-        },
         "09-30": {
-          "tmax": 22.8,
-          "precip": 0.5
+          "tmax": 24.4,
+          "precip": 1.7
         },
         "10-01": {
-          "tmax": 22.3,
+          "tmax": 22.4,
           "precip": 0.0
         },
         "10-02": {
-          "tmax": 22.8,
+          "tmax": 22.9,
           "precip": 0.0
         },
         "10-03": {
-          "tmax": 24.2,
-          "precip": 0.0
+          "tmax": 24.3,
+          "precip": 0.1
         },
         "10-04": {
-          "tmax": 20.2,
-          "precip": 1.2
+          "tmax": 22.4,
+          "precip": 3.3
         },
         "10-05": {
-          "tmax": 21.6,
+          "tmax": 20.6,
           "precip": 0.0
         },
         "10-06": {
-          "tmax": 24.4,
+          "tmax": 25.0,
           "precip": 0.0
         },
         "10-07": {
-          "tmax": 21.2,
+          "tmax": 24.7,
           "precip": 0.0
         },
         "10-08": {
-          "tmax": 24.2,
+          "tmax": 28.3,
           "precip": 0.0
         },
         "10-09": {
-          "tmax": 27.0,
+          "tmax": 26.4,
           "precip": 0.0
         },
         "10-10": {
-          "tmax": 21.1,
+          "tmax": 20.9,
           "precip": 0.0
         },
         "10-11": {
-          "tmax": 22.7,
+          "tmax": 19.4,
           "precip": 0.0
         },
         "10-12": {
-          "tmax": 21.9,
+          "tmax": 22.3,
           "precip": 0.0
         },
         "10-13": {
-          "tmax": 23.7,
-          "precip": 5.4
+          "tmax": 20.7,
+          "precip": 0.0
+        },
+        "10-14": {
+          "tmax": 22.2,
+          "precip": 0.0
         }
       }
     },
@@ -307,65 +307,65 @@
       "population": 4704100,
       "population_weight": 0.592891502993383,
       "weather": {
-        "09-29": {
-          "tmax": 29.9,
-          "precip": 0.0
-        },
         "09-30": {
-          "tmax": 22.2,
-          "precip": 1.9
+          "tmax": 22.6,
+          "precip": 1.7
         },
         "10-01": {
-          "tmax": 22.6,
+          "tmax": 23.0,
           "precip": 0.0
         },
         "10-02": {
-          "tmax": 24.0,
+          "tmax": 24.2,
           "precip": 0.0
         },
         "10-03": {
-          "tmax": 25.7,
+          "tmax": 23.9,
           "precip": 0.0
         },
         "10-04": {
-          "tmax": 19.6,
-          "precip": 1.2
+          "tmax": 20.4,
+          "precip": 1.0
         },
         "10-05": {
-          "tmax": 22.6,
+          "tmax": 22.1,
           "precip": 0.0
         },
         "10-06": {
-          "tmax": 26.1,
+          "tmax": 27.2,
           "precip": 0.0
         },
         "10-07": {
-          "tmax": 22.6,
-          "precip": 1.2
+          "tmax": 26.6,
+          "precip": 0.0
         },
         "10-08": {
-          "tmax": 25.6,
+          "tmax": 29.2,
           "precip": 0.0
         },
         "10-09": {
-          "tmax": 28.7,
+          "tmax": 28.2,
           "precip": 0.0
         },
         "10-10": {
-          "tmax": 20.7,
-          "precip": 0.6
+          "tmax": 20.8,
+          "precip": 0.3
         },
         "10-11": {
-          "tmax": 24.1,
-          "precip": 0.0
+          "tmax": 21.1,
+          "precip": 0.3
         },
         "10-12": {
-          "tmax": 24.2,
-          "precip": 1.2
+          "tmax": 24.8,
+          "precip": 0.0
         },
         "10-13": {
-          "tmax": 23.1,
-          "precip": 3.0
+          "tmax": 23.4,
+          "precip": 0.0
+        },
+        "10-14": {
+          "tmax": 24.0,
+          "precip": 0.0
         }
       }
     },
@@ -377,65 +377,65 @@
       "population": 11018400,
       "population_weight": 1.3887280747820607,
       "weather": {
-        "09-29": {
-          "tmax": 25.0,
-          "precip": 0.0
-        },
         "09-30": {
           "tmax": 25.4,
-          "precip": 0.8
+          "precip": 0.9
         },
         "10-01": {
-          "tmax": 20.7,
+          "tmax": 20.9,
           "precip": 0.0
         },
         "10-02": {
-          "tmax": 21.2,
-          "precip": 0.0
-        },
-        "10-03": {
-          "tmax": 21.5,
-          "precip": 0.0
-        },
-        "10-04": {
-          "tmax": 21.0,
-          "precip": 0.0
-        },
-        "10-05": {
-          "tmax": 21.1,
-          "precip": 0.0
-        },
-        "10-06": {
-          "tmax": 22.6,
-          "precip": 0.0
-        },
-        "10-07": {
           "tmax": 21.7,
           "precip": 0.0
         },
+        "10-03": {
+          "tmax": 20.7,
+          "precip": 0.0
+        },
+        "10-04": {
+          "tmax": 21.7,
+          "precip": 0.0
+        },
+        "10-05": {
+          "tmax": 20.7,
+          "precip": 0.0
+        },
+        "10-06": {
+          "tmax": 23.0,
+          "precip": 0.0
+        },
+        "10-07": {
+          "tmax": 25.2,
+          "precip": 0.0
+        },
         "10-08": {
-          "tmax": 22.7,
+          "tmax": 24.7,
           "precip": 0.0
         },
         "10-09": {
-          "tmax": 24.0,
+          "tmax": 24.7,
           "precip": 0.0
         },
         "10-10": {
-          "tmax": 24.0,
+          "tmax": 23.2,
           "precip": 0.0
         },
         "10-11": {
-          "tmax": 22.0,
+          "tmax": 21.6,
           "precip": 0.0
         },
         "10-12": {
-          "tmax": 22.3,
-          "precip": 1.2
+          "tmax": 22.6,
+          "precip": 0.0
         },
         "10-13": {
-          "tmax": 23.8,
-          "precip": 0.6
+          "tmax": 24.3,
+          "precip": 0.0
+        },
+        "10-14": {
+          "tmax": 21.2,
+          "precip": 0.0
         }
       }
     },
@@ -447,65 +447,65 @@
       "population": 8357900,
       "population_weight": 1.0534061548156706,
       "weather": {
-        "09-29": {
-          "tmax": 26.0,
-          "precip": 0.2
-        },
         "09-30": {
-          "tmax": 23.1,
-          "precip": 0.7
+          "tmax": 24.9,
+          "precip": 1.6
         },
         "10-01": {
-          "tmax": 22.1,
-          "precip": 0.0
-        },
-        "10-02": {
-          "tmax": 22.8,
-          "precip": 0.0
-        },
-        "10-03": {
-          "tmax": 21.8,
-          "precip": 0.3
-        },
-        "10-04": {
           "tmax": 21.6,
           "precip": 0.0
         },
+        "10-02": {
+          "tmax": 23.1,
+          "precip": 0.0
+        },
+        "10-03": {
+          "tmax": 21.2,
+          "precip": 0.4
+        },
+        "10-04": {
+          "tmax": 22.0,
+          "precip": 0.0
+        },
         "10-05": {
-          "tmax": 22.7,
+          "tmax": 22.0,
           "precip": 0.0
         },
         "10-06": {
-          "tmax": 25.4,
+          "tmax": 25.8,
           "precip": 0.0
         },
         "10-07": {
-          "tmax": 26.3,
+          "tmax": 26.4,
           "precip": 0.0
         },
         "10-08": {
-          "tmax": 25.9,
+          "tmax": 26.0,
           "precip": 0.0
         },
         "10-09": {
-          "tmax": 25.4,
+          "tmax": 26.1,
           "precip": 0.0
         },
         "10-10": {
-          "tmax": 22.2,
+          "tmax": 23.7,
           "precip": 0.0
         },
         "10-11": {
-          "tmax": 24.0,
-          "precip": 0.0
+          "tmax": 23.5,
+          "precip": 1.8
         },
         "10-12": {
-          "tmax": 23.4,
-          "precip": 4.5
+          "tmax": 24.3,
+          "precip": 0.0
         },
         "10-13": {
-          "tmax": 24.0,
-          "precip": 2.1
+          "tmax": 26.0,
+          "precip": 0.0
+        },
+        "10-14": {
+          "tmax": 23.8,
+          "precip": 0.0
         }
       }
     },
@@ -517,16 +517,12 @@
       "population": 5611200,
       "population_weight": 0.7072198298498057,
       "weather": {
-        "09-29": {
-          "tmax": 29.9,
-          "precip": 0.0
-        },
         "09-30": {
-          "tmax": 22.7,
-          "precip": 0.0
+          "tmax": 23.2,
+          "precip": 0.1
         },
         "10-01": {
-          "tmax": 22.2,
+          "tmax": 23.1,
           "precip": 0.0
         },
         "10-02": {
@@ -534,48 +530,52 @@
           "precip": 0.0
         },
         "10-03": {
-          "tmax": 24.9,
-          "precip": 1.2
+          "tmax": 24.6,
+          "precip": 2.0
         },
         "10-04": {
-          "tmax": 20.6,
-          "precip": 0.0
+          "tmax": 19.7,
+          "precip": 0.2
         },
         "10-05": {
-          "tmax": 23.2,
-          "precip": 0.0
-        },
-        "10-06": {
-          "tmax": 26.8,
-          "precip": 0.0
-        },
-        "10-07": {
-          "tmax": 25.8,
-          "precip": 0.0
-        },
-        "10-08": {
-          "tmax": 27.1,
-          "precip": 0.0
-        },
-        "10-09": {
-          "tmax": 28.2,
-          "precip": 0.0
-        },
-        "10-10": {
-          "tmax": 20.4,
-          "precip": 2.4
-        },
-        "10-11": {
           "tmax": 22.9,
           "precip": 0.0
         },
+        "10-06": {
+          "tmax": 27.1,
+          "precip": 0.0
+        },
+        "10-07": {
+          "tmax": 27.7,
+          "precip": 0.0
+        },
+        "10-08": {
+          "tmax": 28.7,
+          "precip": 0.0
+        },
+        "10-09": {
+          "tmax": 27.1,
+          "precip": 0.0
+        },
+        "10-10": {
+          "tmax": 20.0,
+          "precip": 2.4
+        },
+        "10-11": {
+          "tmax": 18.4,
+          "precip": 0.0
+        },
         "10-12": {
-          "tmax": 21.0,
-          "precip": 8.7
+          "tmax": 23.8,
+          "precip": 0.0
         },
         "10-13": {
-          "tmax": 20.5,
-          "precip": 4.5
+          "tmax": 22.0,
+          "precip": 0.0
+        },
+        "10-14": {
+          "tmax": 24.2,
+          "precip": 0.0
         }
       }
     },
@@ -587,16 +587,12 @@
       "population": 5952500,
       "population_weight": 0.7502363197143157,
       "weather": {
-        "09-29": {
-          "tmax": 28.4,
-          "precip": 0.0
-        },
         "09-30": {
-          "tmax": 22.8,
+          "tmax": 24.0,
           "precip": 0.1
         },
         "10-01": {
-          "tmax": 24.0,
+          "tmax": 23.8,
           "precip": 0.0
         },
         "10-02": {
@@ -604,27 +600,27 @@
           "precip": 0.0
         },
         "10-03": {
-          "tmax": 25.0,
-          "precip": 0.0
+          "tmax": 22.9,
+          "precip": 1.3
         },
         "10-04": {
-          "tmax": 21.8,
+          "tmax": 21.4,
           "precip": 0.0
         },
         "10-05": {
-          "tmax": 24.8,
+          "tmax": 23.9,
           "precip": 0.0
         },
         "10-06": {
-          "tmax": 26.9,
+          "tmax": 27.2,
           "precip": 0.0
         },
         "10-07": {
-          "tmax": 27.0,
+          "tmax": 27.9,
           "precip": 0.0
         },
         "10-08": {
-          "tmax": 27.2,
+          "tmax": 27.5,
           "precip": 0.0
         },
         "10-09": {
@@ -632,20 +628,24 @@
           "precip": 0.0
         },
         "10-10": {
-          "tmax": 20.5,
-          "precip": 1.2
+          "tmax": 23.3,
+          "precip": 0.0
         },
         "10-11": {
-          "tmax": 24.5,
+          "tmax": 23.7,
           "precip": 0.0
         },
         "10-12": {
-          "tmax": 21.2,
-          "precip": 5.4
+          "tmax": 25.3,
+          "precip": 0.0
         },
         "10-13": {
-          "tmax": 21.7,
-          "precip": 2.4
+          "tmax": 24.1,
+          "precip": 0.0
+        },
+        "10-14": {
+          "tmax": 24.6,
+          "precip": 0.0
         }
       }
     },
@@ -657,65 +657,65 @@
       "population": null,
       "population_weight": null,
       "weather": {
-        "09-29": {
-          "tmax": 28.8,
-          "precip": 0.0
-        },
         "09-30": {
-          "tmax": 22.3,
+          "tmax": 23.8,
           "precip": 1.1
         },
         "10-01": {
-          "tmax": 22.8,
+          "tmax": 23.1,
           "precip": 0.0
         },
         "10-02": {
-          "tmax": 25.2,
+          "tmax": 25.4,
           "precip": 0.0
         },
         "10-03": {
-          "tmax": 23.5,
-          "precip": 0.0
+          "tmax": 23.8,
+          "precip": 0.3
         },
         "10-04": {
-          "tmax": 20.6,
-          "precip": 1.5
+          "tmax": 20.7,
+          "precip": 0.2
         },
         "10-05": {
-          "tmax": 23.3,
+          "tmax": 22.8,
           "precip": 0.0
         },
         "10-06": {
-          "tmax": 27.1,
+          "tmax": 27.3,
           "precip": 0.0
         },
         "10-07": {
-          "tmax": 25.7,
+          "tmax": 27.5,
           "precip": 0.0
         },
         "10-08": {
-          "tmax": 27.0,
+          "tmax": 28.1,
           "precip": 0.0
         },
         "10-09": {
-          "tmax": 28.0,
+          "tmax": 28.1,
           "precip": 0.0
         },
         "10-10": {
-          "tmax": 21.9,
-          "precip": 0.6
+          "tmax": 23.6,
+          "precip": 0.0
         },
         "10-11": {
-          "tmax": 23.8,
+          "tmax": 22.5,
           "precip": 0.0
         },
         "10-12": {
-          "tmax": 23.1,
-          "precip": 1.5
+          "tmax": 25.2,
+          "precip": 0.0
         },
         "10-13": {
-          "tmax": 22.5,
-          "precip": 1.5
+          "tmax": 23.5,
+          "precip": 0.0
+        },
+        "10-14": {
+          "tmax": 24.9,
+          "precip": 0.0
         }
       }
     },
@@ -726,68 +726,7 @@
       "lat": 35.25,
       "population": null,
       "population_weight": null,
-      "weather": {
-        "09-29": {
-          "tmax": 26.2,
-          "precip": 0.6
-        },
-        "09-30": {
-          "tmax": 23.0,
-          "precip": 0.5
-        },
-        "10-01": {
-          "tmax": 21.7,
-          "precip": 0.0
-        },
-        "10-02": {
-          "tmax": 22.5,
-          "precip": 0.0
-        },
-        "10-03": {
-          "tmax": 21.5,
-          "precip": 0.0
-        },
-        "10-04": {
-          "tmax": 21.4,
-          "precip": 0.0
-        },
-        "10-05": {
-          "tmax": 23.2,
-          "precip": 0.0
-        },
-        "10-06": {
-          "tmax": 25.5,
-          "precip": 0.0
-        },
-        "10-07": {
-          "tmax": 25.7,
-          "precip": 0.0
-        },
-        "10-08": {
-          "tmax": 26.5,
-          "precip": 0.0
-        },
-        "10-09": {
-          "tmax": 25.4,
-          "precip": 0.3
-        },
-        "10-10": {
-          "tmax": 21.2,
-          "precip": 0.3
-        },
-        "10-11": {
-          "tmax": 23.7,
-          "precip": 0.3
-        },
-        "10-12": {
-          "tmax": 21.9,
-          "precip": 8.1
-        },
-        "10-13": {
-          "tmax": 23.3,
-          "precip": 0.0
-        }
-      }
+      "weather": {}
     },
     "guanggu": {
       "name": "广固站",
@@ -796,68 +735,7 @@
       "lat": 36.75,
       "population": null,
       "population_weight": null,
-      "weather": {
-        "09-29": {
-          "tmax": 28.7,
-          "precip": 0.1
-        },
-        "09-30": {
-          "tmax": 22.5,
-          "precip": 0.5
-        },
-        "10-01": {
-          "tmax": 22.5,
-          "precip": 0.0
-        },
-        "10-02": {
-          "tmax": 23.0,
-          "precip": 0.0
-        },
-        "10-03": {
-          "tmax": 24.4,
-          "precip": 0.0
-        },
-        "10-04": {
-          "tmax": 20.5,
-          "precip": 0.6
-        },
-        "10-05": {
-          "tmax": 21.9,
-          "precip": 0.0
-        },
-        "10-06": {
-          "tmax": 24.8,
-          "precip": 0.0
-        },
-        "10-07": {
-          "tmax": 21.8,
-          "precip": 0.6
-        },
-        "10-08": {
-          "tmax": 24.5,
-          "precip": 0.0
-        },
-        "10-09": {
-          "tmax": 27.4,
-          "precip": 0.0
-        },
-        "10-10": {
-          "tmax": 20.8,
-          "precip": 0.0
-        },
-        "10-11": {
-          "tmax": 22.9,
-          "precip": 0.0
-        },
-        "10-12": {
-          "tmax": 22.4,
-          "precip": 0.0
-        },
-        "10-13": {
-          "tmax": 24.0,
-          "precip": 5.4
-        }
-      }
+      "weather": {}
     },
     "yinan": {
       "name": "沂南站",
@@ -866,68 +744,7 @@
       "lat": 35.55,
       "population": null,
       "population_weight": null,
-      "weather": {
-        "09-29": {
-          "tmax": 25.3,
-          "precip": 0.0
-        },
-        "09-30": {
-          "tmax": 24.5,
-          "precip": 1.9
-        },
-        "10-01": {
-          "tmax": 21.4,
-          "precip": 0.0
-        },
-        "10-02": {
-          "tmax": 21.0,
-          "precip": 0.0
-        },
-        "10-03": {
-          "tmax": 20.8,
-          "precip": 0.0
-        },
-        "10-04": {
-          "tmax": 21.0,
-          "precip": 0.0
-        },
-        "10-05": {
-          "tmax": 21.1,
-          "precip": 0.0
-        },
-        "10-06": {
-          "tmax": 23.3,
-          "precip": 0.0
-        },
-        "10-07": {
-          "tmax": 24.6,
-          "precip": 0.0
-        },
-        "10-08": {
-          "tmax": 23.3,
-          "precip": 0.0
-        },
-        "10-09": {
-          "tmax": 25.1,
-          "precip": 0.0
-        },
-        "10-10": {
-          "tmax": 24.2,
-          "precip": 0.0
-        },
-        "10-11": {
-          "tmax": 20.4,
-          "precip": 0.6
-        },
-        "10-12": {
-          "tmax": 21.2,
-          "precip": 0.9
-        },
-        "10-13": {
-          "tmax": 23.6,
-          "precip": 1.5
-        }
-      }
+      "weather": {}
     },
     "jiaodong": {
       "name": "胶东换",
@@ -936,68 +753,7 @@
       "lat": 37.2,
       "population": null,
       "population_weight": null,
-      "weather": {
-        "09-29": {
-          "tmax": 28.0,
-          "precip": 0.0
-        },
-        "09-30": {
-          "tmax": 22.9,
-          "precip": 0.3
-        },
-        "10-01": {
-          "tmax": 21.4,
-          "precip": 0.0
-        },
-        "10-02": {
-          "tmax": 23.0,
-          "precip": 0.0
-        },
-        "10-03": {
-          "tmax": 24.7,
-          "precip": 0.0
-        },
-        "10-04": {
-          "tmax": 21.5,
-          "precip": 2.7
-        },
-        "10-05": {
-          "tmax": 19.2,
-          "precip": 0.0
-        },
-        "10-06": {
-          "tmax": 24.0,
-          "precip": 0.0
-        },
-        "10-07": {
-          "tmax": 22.8,
-          "precip": 0.0
-        },
-        "10-08": {
-          "tmax": 23.4,
-          "precip": 0.0
-        },
-        "10-09": {
-          "tmax": 25.9,
-          "precip": 0.0
-        },
-        "10-10": {
-          "tmax": 21.9,
-          "precip": 0.0
-        },
-        "10-11": {
-          "tmax": 23.1,
-          "precip": 0.0
-        },
-        "10-12": {
-          "tmax": 23.8,
-          "precip": 0.0
-        },
-        "10-13": {
-          "tmax": 19.9,
-          "precip": 1.8
-        }
-      }
+      "weather": {}
     },
     "longdong": {
       "name": "陇东受端",
@@ -1007,16 +763,12 @@
       "population": null,
       "population_weight": null,
       "weather": {
-        "09-29": {
-          "tmax": 29.9,
-          "precip": 0.0
-        },
         "09-30": {
-          "tmax": 22.7,
-          "precip": 0.0
+          "tmax": 23.2,
+          "precip": 0.1
         },
         "10-01": {
-          "tmax": 22.2,
+          "tmax": 23.1,
           "precip": 0.0
         },
         "10-02": {
@@ -1024,48 +776,52 @@
           "precip": 0.0
         },
         "10-03": {
-          "tmax": 24.9,
-          "precip": 1.2
+          "tmax": 24.6,
+          "precip": 2.0
         },
         "10-04": {
-          "tmax": 20.6,
-          "precip": 0.0
+          "tmax": 19.7,
+          "precip": 0.2
         },
         "10-05": {
-          "tmax": 23.2,
-          "precip": 0.0
-        },
-        "10-06": {
-          "tmax": 26.8,
-          "precip": 0.0
-        },
-        "10-07": {
-          "tmax": 25.8,
-          "precip": 0.0
-        },
-        "10-08": {
-          "tmax": 27.1,
-          "precip": 0.0
-        },
-        "10-09": {
-          "tmax": 28.2,
-          "precip": 0.0
-        },
-        "10-10": {
-          "tmax": 20.4,
-          "precip": 2.4
-        },
-        "10-11": {
           "tmax": 22.9,
           "precip": 0.0
         },
+        "10-06": {
+          "tmax": 27.1,
+          "precip": 0.0
+        },
+        "10-07": {
+          "tmax": 27.7,
+          "precip": 0.0
+        },
+        "10-08": {
+          "tmax": 28.7,
+          "precip": 0.0
+        },
+        "10-09": {
+          "tmax": 27.1,
+          "precip": 0.0
+        },
+        "10-10": {
+          "tmax": 20.0,
+          "precip": 2.4
+        },
+        "10-11": {
+          "tmax": 18.4,
+          "precip": 0.0
+        },
         "10-12": {
-          "tmax": 21.0,
-          "precip": 8.7
+          "tmax": 23.8,
+          "precip": 0.0
         },
         "10-13": {
-          "tmax": 20.5,
-          "precip": 4.5
+          "tmax": 22.0,
+          "precip": 0.0
+        },
+        "10-14": {
+          "tmax": 24.2,
+          "precip": 0.0
         }
       }
     },
@@ -1077,12 +833,8 @@
       "population": null,
       "population_weight": null,
       "weather": {
-        "09-29": {
-          "tmax": 29.5,
-          "precip": 0.0
-        },
         "09-30": {
-          "tmax": 22.0,
+          "tmax": 23.2,
           "precip": 0.0
         },
         "10-01": {
@@ -1094,48 +846,52 @@
           "precip": 0.0
         },
         "10-03": {
-          "tmax": 24.6,
-          "precip": 0.3
+          "tmax": 23.9,
+          "precip": 0.4
         },
         "10-04": {
-          "tmax": 21.5,
-          "precip": 0.0
+          "tmax": 21.4,
+          "precip": 0.1
         },
         "10-05": {
-          "tmax": 24.0,
+          "tmax": 23.8,
           "precip": 0.0
         },
         "10-06": {
-          "tmax": 27.2,
+          "tmax": 27.5,
           "precip": 0.0
         },
         "10-07": {
-          "tmax": 26.3,
+          "tmax": 28.4,
           "precip": 0.0
         },
         "10-08": {
-          "tmax": 27.8,
+          "tmax": 28.5,
           "precip": 0.0
         },
         "10-09": {
-          "tmax": 28.2,
+          "tmax": 27.3,
           "precip": 0.0
         },
         "10-10": {
-          "tmax": 20.3,
-          "precip": 1.8
+          "tmax": 22.1,
+          "precip": 0.0
         },
         "10-11": {
-          "tmax": 24.0,
+          "tmax": 20.2,
           "precip": 0.0
         },
         "10-12": {
-          "tmax": 20.9,
-          "precip": 10.8
+          "tmax": 25.4,
+          "precip": 0.0
         },
         "10-13": {
-          "tmax": 22.0,
-          "precip": 4.2
+          "tmax": 23.4,
+          "precip": 0.0
+        },
+        "10-14": {
+          "tmax": 25.0,
+          "precip": 0.0
         }
       }
     },
@@ -1147,78 +903,70 @@
       "population": null,
       "population_weight": null,
       "weather": {
-        "09-29": {
-          "tmax": 29.2,
-          "precip": 0.0
-        },
         "09-30": {
-          "tmax": 22.4,
-          "precip": 0.5
+          "tmax": 22.9,
+          "precip": 0.6
         },
         "10-01": {
-          "tmax": 20.4,
+          "tmax": 20.5,
           "precip": 0.0
         },
         "10-02": {
-          "tmax": 22.6,
-          "precip": 0.0
-        },
-        "10-03": {
-          "tmax": 24.2,
-          "precip": 4.2
-        },
-        "10-04": {
-          "tmax": 17.1,
-          "precip": 0.9
-        },
-        "10-05": {
-          "tmax": 21.0,
-          "precip": 0.0
-        },
-        "10-06": {
-          "tmax": 25.2,
-          "precip": 0.0
-        },
-        "10-07": {
           "tmax": 22.3,
           "precip": 0.0
         },
+        "10-03": {
+          "tmax": 24.4,
+          "precip": 0.0
+        },
+        "10-04": {
+          "tmax": 17.9,
+          "precip": 9.3
+        },
+        "10-05": {
+          "tmax": 20.6,
+          "precip": 0.0
+        },
+        "10-06": {
+          "tmax": 23.6,
+          "precip": 0.0
+        },
+        "10-07": {
+          "tmax": 24.5,
+          "precip": 0.0
+        },
         "10-08": {
-          "tmax": 24.7,
+          "tmax": 27.5,
           "precip": 0.0
         },
         "10-09": {
-          "tmax": 25.4,
-          "precip": 0.0
-        },
-        "10-10": {
-          "tmax": 19.1,
+          "tmax": 22.6,
           "precip": 0.6
         },
+        "10-10": {
+          "tmax": 18.2,
+          "precip": 0.9
+        },
         "10-11": {
-          "tmax": 23.2,
-          "precip": 0.0
+          "tmax": 17.2,
+          "precip": 0.3
         },
         "10-12": {
-          "tmax": 21.0,
-          "precip": 1.8
+          "tmax": 22.1,
+          "precip": 0.0
         },
         "10-13": {
-          "tmax": 21.5,
-          "precip": 4.2
+          "tmax": 18.8,
+          "precip": 0.0
+        },
+        "10-14": {
+          "tmax": 22.6,
+          "precip": 0.0
         }
       }
     }
   },
   "price_series": [
-    {
-      "date": "09-29",
-      "score": 350.0,
-      "risk": "none",
-      "demand_count": 0,
-      "supply_count": 0,
-      "affected_pop": 0.0
-    },
     {
       "date": "09-30",
       "score": 350.0,
@@ -1253,10 +1001,10 @@
     },
     {
       "date": "10-04",
-      "score": 350.0,
-      "risk": "none",
+      "score": 355.0,
+      "risk": "low",
       "demand_count": 0,
-      "supply_count": 0,
+      "supply_count": 1,
       "affected_pop": 0.0
     },
     {
@@ -1317,33 +1065,30 @@
     },
     {
       "date": "10-12",
-      "score": 365.0,
-      "risk": "low",
+      "score": 350.0,
+      "risk": "none",
       "demand_count": 0,
-      "supply_count": 3,
+      "supply_count": 0,
       "affected_pop": 0.0
     },
     {
       "date": "10-13",
-      "score": 355.0,
-      "risk": "low",
+      "score": 350.0,
+      "risk": "none",
       "demand_count": 0,
-      "supply_count": 1,
+      "supply_count": 0,
+      "affected_pop": 0.0
+    },
+    {
+      "date": "10-14",
+      "score": 350.0,
+      "risk": "none",
+      "demand_count": 0,
+      "supply_count": 0,
       "affected_pop": 0.0
     }
   ],
   "cross_sections": [
-    {
-      "date": "09-29",
-      "id": "central_load",
-      "name": "鲁中受端断面",
-      "type": "demand",
-      "capacity_mw": 30000,
-      "load_mw": 18000.0,
-      "utilization": 0.6,
-      "risk": "low",
-      "message": "鲁中受端断面 09-29 负载 18000/30000 MW （利用率 60.0%）"
-    },
     {
       "date": "09-30",
       "id": "central_load",
@@ -1499,15 +1244,15 @@
       "message": "鲁中受端断面 10-13 负载 18000/30000 MW （利用率 60.0%）"
     },
     {
-      "date": "09-29",
-      "id": "jiaodong_load",
-      "name": "胶东受端断面",
+      "date": "10-14",
+      "id": "central_load",
+      "name": "鲁中受端断面",
       "type": "demand",
-      "capacity_mw": 25000,
-      "load_mw": 15000.0,
+      "capacity_mw": 30000,
+      "load_mw": 18000.0,
       "utilization": 0.6,
       "risk": "low",
-      "message": "胶东受端断面 09-29 负载 15000/25000 MW （利用率 60.0%）"
+      "message": "鲁中受端断面 10-14 负载 18000/30000 MW （利用率 60.0%）"
     },
     {
       "date": "09-30",
@@ -1664,15 +1409,15 @@
       "message": "胶东受端断面 10-13 负载 15000/25000 MW （利用率 60.0%）"
     },
     {
-      "date": "09-29",
-      "id": "lunan_load",
-      "name": "鲁南受端断面",
+      "date": "10-14",
+      "id": "jiaodong_load",
+      "name": "胶东受端断面",
       "type": "demand",
-      "capacity_mw": 20000,
-      "load_mw": 12000.0,
+      "capacity_mw": 25000,
+      "load_mw": 15000.0,
       "utilization": 0.6,
       "risk": "low",
-      "message": "鲁南受端断面 09-29 负载 12000/20000 MW （利用率 60.0%）"
+      "message": "胶东受端断面 10-14 负载 15000/25000 MW （利用率 60.0%）"
     },
     {
       "date": "09-30",
@@ -1829,15 +1574,15 @@
       "message": "鲁南受端断面 10-13 负载 12000/20000 MW （利用率 60.0%）"
     },
     {
-      "date": "09-29",
-      "id": "external_inflow",
-      "name": "外电入鲁断面",
-      "type": "supply",
-      "capacity_mw": 35000,
-      "load_mw": 17500.0,
-      "utilization": 0.5,
+      "date": "10-14",
+      "id": "lunan_load",
+      "name": "鲁南受端断面",
+      "type": "demand",
+      "capacity_mw": 20000,
+      "load_mw": 12000.0,
+      "utilization": 0.6,
       "risk": "low",
-      "message": "外电入鲁断面 09-29 负载 17500/35000 MW （利用率 50.0%）"
+      "message": "鲁南受端断面 10-14 负载 12000/20000 MW （利用率 60.0%）"
     },
     {
       "date": "09-30",
@@ -1977,10 +1722,10 @@
       "name": "外电入鲁断面",
       "type": "supply",
       "capacity_mw": 35000,
-      "load_mw": 19558.0,
-      "utilization": 0.559,
+      "load_mw": 17500.0,
+      "utilization": 0.5,
       "risk": "low",
-      "message": "外电入鲁断面 10-12 负载 19558/35000 MW （利用率 55.9%）"
+      "message": "外电入鲁断面 10-12 负载 17500/35000 MW （利用率 50.0%）"
     },
     {
       "date": "10-13",
@@ -1988,21 +1733,21 @@
       "name": "外电入鲁断面",
       "type": "supply",
       "capacity_mw": 35000,
-      "load_mw": 18162.0,
-      "utilization": 0.519,
+      "load_mw": 17500.0,
+      "utilization": 0.5,
       "risk": "low",
-      "message": "外电入鲁断面 10-13 负载 18162/35000 MW （利用率 51.9%）"
+      "message": "外电入鲁断面 10-13 负载 17500/35000 MW （利用率 50.0%）"
     },
     {
-      "date": "09-29",
-      "id": "west_renewable",
-      "name": "西部风光送出断面",
-      "type": "renewable",
-      "capacity_mw": 15000,
-      "load_mw": 6000.0,
-      "utilization": 0.4,
+      "date": "10-14",
+      "id": "external_inflow",
+      "name": "外电入鲁断面",
+      "type": "supply",
+      "capacity_mw": 35000,
+      "load_mw": 17500.0,
+      "utilization": 0.5,
       "risk": "low",
-      "message": "西部风光送出断面 09-29 负载 6000/15000 MW （利用率 40.0%）"
+      "message": "外电入鲁断面 10-14 负载 17500/35000 MW （利用率 50.0%）"
     },
     {
       "date": "09-30",
@@ -2142,10 +1887,10 @@
       "name": "西部风光送出断面",
       "type": "renewable",
       "capacity_mw": 15000,
-      "load_mw": 6567.0,
-      "utilization": 0.438,
+      "load_mw": 6000.0,
+      "utilization": 0.4,
       "risk": "low",
-      "message": "西部风光送出断面 10-12 负载 6567/15000 MW （利用率 43.8%）"
+      "message": "西部风光送出断面 10-12 负载 6000/15000 MW （利用率 40.0%）"
     },
     {
       "date": "10-13",
@@ -2159,15 +1904,15 @@
       "message": "西部风光送出断面 10-13 负载 6000/15000 MW （利用率 40.0%）"
     },
     {
-      "date": "09-29",
-      "id": "north_renewable",
-      "name": "北部风光送出断面",
+      "date": "10-14",
+      "id": "west_renewable",
+      "name": "西部风光送出断面",
       "type": "renewable",
-      "capacity_mw": 12000,
-      "load_mw": 4800.0,
+      "capacity_mw": 15000,
+      "load_mw": 6000.0,
       "utilization": 0.4,
       "risk": "low",
-      "message": "北部风光送出断面 09-29 负载 4800/12000 MW （利用率 40.0%）"
+      "message": "西部风光送出断面 10-14 负载 6000/15000 MW （利用率 40.0%）"
     },
     {
       "date": "09-30",
@@ -2219,10 +1964,10 @@
       "name": "北部风光送出断面",
       "type": "renewable",
       "capacity_mw": 12000,
-      "load_mw": 4800.0,
-      "utilization": 0.4,
+      "load_mw": 5191.0,
+      "utilization": 0.433,
       "risk": "low",
-      "message": "北部风光送出断面 10-04 负载 4800/12000 MW （利用率 40.0%）"
+      "message": "北部风光送出断面 10-04 负载 5191/12000 MW （利用率 43.3%）"
     },
     {
       "date": "10-05",
@@ -2322,6 +2067,17 @@
       "utilization": 0.4,
       "risk": "low",
       "message": "北部风光送出断面 10-13 负载 4800/12000 MW （利用率 40.0%）"
+    },
+    {
+      "date": "10-14",
+      "id": "north_renewable",
+      "name": "北部风光送出断面",
+      "type": "renewable",
+      "capacity_mw": 12000,
+      "load_mw": 4800.0,
+      "utilization": 0.4,
+      "risk": "low",
+      "message": "北部风光送出断面 10-14 负载 4800/12000 MW （利用率 40.0%）"
     }
   ]
 }
